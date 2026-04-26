@@ -1,0 +1,103 @@
+/*
+=============================================================================
+  SAT CSS - Components (Buttons, Inputs, Cards)
+=============================================================================
+*/
+
+/* Buttons */
+.sat-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: var(--sat-radius);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.sat-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.sat-btn-primary {
+  background-color: var(--sat-color-primary-600);
+  color: var(--sat-color-white);
+}
+.sat-btn-primary:hover {
+  background-color: var(--sat-color-primary-700);
+}
+.sat-btn-secondary {
+  background-color: var(--sat-color-gray-200);
+  color: var(--sat-color-gray-800);
+}
+.sat-btn-secondary:hover {
+  background-color: var(--sat-color-gray-300);
+}
+.sat-btn-danger {
+  background-color: var(--sat-color-danger-600);
+  color: var(--sat-color-white);
+}
+.sat-btn-danger:hover {
+  background-color: var(--sat-color-danger-700);
+}
+
+/* Form Inputs */
+.sat-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--sat-color-gray-900);
+  background-color: var(--sat-color-white);
+  border: 1px solid var(--sat-color-gray-300);
+  border-radius: var(--sat-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.sat-input:focus {
+  outline: 0;
+  border-color: var(--sat-color-primary-500);
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+}
+.sat-input:disabled {
+  background-color: var(--sat-color-gray-100);
+  opacity: 1;
+}
+
+/* Cards */
+.sat-card {
+  background-color: var(--sat-color-white);
+  border-radius: var(--sat-radius-md);
+  box-shadow: var(--sat-shadow);
+  overflow: hidden;
+}
+.sat-card-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--sat-color-gray-200);
+}
+.sat-card-body {
+  padding: 1.5rem;
+}
+.sat-card-footer {
+  padding: 1.25rem 1.5rem;
+  background-color: var(--sat-color-gray-50);
+  border-top: 1px solid var(--sat-color-gray-200);
+}
+
+/* Badge */
+.sat-badge {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.sat-badge-primary { background-color: var(--sat-color-primary-100); color: var(--sat-color-primary-800); }
+.sat-badge-success { background-color: var(--sat-color-success-100); color: var(--sat-color-success-800); }
+.sat-badge-danger { background-color: var(--sat-color-danger-100); color: var(--sat-color-danger-800); }
+.sat-badge-warning { background-color: var(--sat-color-warning-100); color: var(--sat-color-warning-800); }

@@ -1,0 +1,94 @@
+/*
+=============================================================================
+  SAT CSS - Layout (Flexbox, Grid, Display)
+=============================================================================
+*/
+
+/* Display */
+.sat-hidden { display: none; }
+.sat-block { display: block; }
+.sat-inline-block { display: inline-block; }
+.sat-inline { display: inline; }
+.sat-flex { display: flex; }
+.sat-inline-flex { display: inline-flex; }
+.sat-grid { display: grid; }
+.sat-inline-grid { display: inline-grid; }
+
+/* Flex Direction */
+.sat-flex-row { flex-direction: row; }
+.sat-flex-row-reverse { flex-direction: row-reverse; }
+.sat-flex-col { flex-direction: column; }
+.sat-flex-col-reverse { flex-direction: column-reverse; }
+
+/* Flex Wrap */
+.sat-flex-wrap { flex-wrap: wrap; }
+.sat-flex-wrap-reverse { flex-wrap: wrap-reverse; }
+.sat-flex-nowrap { flex-wrap: nowrap; }
+
+/* Flex Item */
+.sat-flex-1 { flex: 1 1 0%; }
+.sat-flex-auto { flex: 1 1 auto; }
+.sat-flex-initial { flex: 0 1 auto; }
+.sat-flex-none { flex: none; }
+
+/* Justify Content */
+.sat-justify-start { justify-content: flex-start; }
+.sat-justify-end { justify-content: flex-end; }
+.sat-justify-center { justify-content: center; }
+.sat-justify-between { justify-content: space-between; }
+.sat-justify-around { justify-content: space-around; }
+.sat-justify-evenly { justify-content: space-evenly; }
+
+/* Align Items */
+.sat-items-start { align-items: flex-start; }
+.sat-items-end { align-items: flex-end; }
+.sat-items-center { align-items: center; }
+.sat-items-baseline { align-items: baseline; }
+.sat-items-stretch { align-items: stretch; }
+
+/* Align Content */
+.sat-content-center { align-content: center; }
+.sat-content-start { align-content: flex-start; }
+.sat-content-end { align-content: flex-end; }
+.sat-content-between { align-content: space-between; }
+.sat-content-around { align-content: space-around; }
+
+/* Grid Template Columns */
+.sat-grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.sat-grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.sat-grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.sat-grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.sat-grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.sat-grid-cols-6 { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.sat-grid-cols-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+.sat-grid-cols-none { grid-template-columns: none; }
+
+/* Grid Column Spanning */
+.sat-col-auto { grid-column: auto; }
+.sat-col-span-1 { grid-column: span 1 / span 1; }
+.sat-col-span-2 { grid-column: span 2 / span 2; }
+.sat-col-span-3 { grid-column: span 3 / span 3; }
+.sat-col-span-4 { grid-column: span 4 / span 4; }
+.sat-col-span-5 { grid-column: span 5 / span 5; }
+.sat-col-span-6 { grid-column: span 6 / span 6; }
+.sat-col-span-12 { grid-column: span 12 / span 12; }
+.sat-col-span-full { grid-column: 1 / -1; }
+
+/* Gap */
+.sat-gap-0 { gap: var(--sat-spacing-0); }
+.sat-gap-1 { gap: var(--sat-spacing-1); }
+.sat-gap-2 { gap: var(--sat-spacing-2); }
+.sat-gap-3 { gap: var(--sat-spacing-3); }
+.sat-gap-4 { gap: var(--sat-spacing-4); }
+.sat-gap-5 { gap: var(--sat-spacing-5); }
+.sat-gap-6 { gap: var(--sat-spacing-6); }
+.sat-gap-8 { gap: var(--sat-spacing-8); }
+.sat-gap-10 { gap: var(--sat-spacing-10); }
+
+/* Overflow */
+.sat-overflow-auto { overflow: auto; }
+.sat-overflow-hidden { overflow: hidden; }
+.sat-overflow-visible { overflow: visible; }
+.sat-overflow-scroll { overflow: scroll; }
+.sat-overflow-x-auto { overflow-x: auto; }
+.sat-overflow-y-auto { overflow-y: auto; }

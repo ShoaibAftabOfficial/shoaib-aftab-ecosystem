@@ -1,0 +1,129 @@
+/*
+=============================================================================
+  SAT CSS - Variables (CSS Custom Properties)
+=============================================================================
+*/
+
+:root {
+  /* Colors */
+  --sat-color-transparent: transparent;
+  --sat-color-current: currentColor;
+  --sat-color-black: #000000;
+  --sat-color-white: #ffffff;
+
+  /* Gray Scale */
+  --sat-color-gray-50: #f9fafb;
+  --sat-color-gray-100: #f3f4f6;
+  --sat-color-gray-200: #e5e7eb;
+  --sat-color-gray-300: #d1d5db;
+  --sat-color-gray-400: #9ca3af;
+  --sat-color-gray-500: #6b7280;
+  --sat-color-gray-600: #4b5563;
+  --sat-color-gray-700: #374151;
+  --sat-color-gray-800: #1f2937;
+  --sat-color-gray-900: #111827;
+
+  /* Primary (Blue-ish) */
+  --sat-color-primary-50: #eff6ff;
+  --sat-color-primary-100: #dbeafe;
+  --sat-color-primary-200: #bfdbfe;
+  --sat-color-primary-300: #93c5fd;
+  --sat-color-primary-400: #60a5fa;
+  --sat-color-primary-500: #3b82f6;
+  --sat-color-primary-600: #2563eb;
+  --sat-color-primary-700: #1d4ed8;
+  --sat-color-primary-800: #1e40af;
+  --sat-color-primary-900: #1e3a8a;
+
+  /* Success (Green) */
+  --sat-color-success-50: #f0fdf4;
+  --sat-color-success-100: #dcfce7;
+  --sat-color-success-500: #22c55e;
+  --sat-color-success-600: #16a34a;
+  --sat-color-success-700: #15803d;
+
+  /* Danger (Red) */
+  --sat-color-danger-50: #fef2f2;
+  --sat-color-danger-100: #fee2e2;
+  --sat-color-danger-500: #ef4444;
+  --sat-color-danger-600: #dc2626;
+  --sat-color-danger-700: #b91c1c;
+
+  /* Warning (Yellow/Orange) */
+  --sat-color-warning-50: #fffbeb;
+  --sat-color-warning-100: #fef3c7;
+  --sat-color-warning-500: #f59e0b;
+  --sat-color-warning-600: #d97706;
+  --sat-color-warning-700: #b45309;
+
+  /* Info (Teal/Cyan) */
+  --sat-color-info-50: #ecfeff;
+  --sat-color-info-100: #cffafe;
+  --sat-color-info-500: #06b6d4;
+  --sat-color-info-600: #0891b2;
+  --sat-color-info-700: #0e7490;
+
+  /* Spacing */
+  --sat-spacing-0: 0px;
+  --sat-spacing-1: 0.25rem;  /* 4px */
+  --sat-spacing-2: 0.5rem;   /* 8px */
+  --sat-spacing-3: 0.75rem;  /* 12px */
+  --sat-spacing-4: 1rem;     /* 16px */
+  --sat-spacing-5: 1.25rem;  /* 20px */
+  --sat-spacing-6: 1.5rem;   /* 24px */
+  --sat-spacing-8: 2rem;     /* 32px */
+  --sat-spacing-10: 2.5rem;  /* 40px */
+  --sat-spacing-12: 3rem;    /* 48px */
+  --sat-spacing-16: 4rem;    /* 64px */
+  --sat-spacing-20: 5rem;    /* 80px */
+  --sat-spacing-24: 6rem;    /* 96px */
+  --sat-spacing-32: 8rem;    /* 128px */
+  --sat-spacing-40: 10rem;   /* 160px */
+  --sat-spacing-48: 12rem;   /* 192px */
+  --sat-spacing-56: 14rem;   /* 224px */
+  --sat-spacing-64: 16rem;   /* 256px */
+
+  /* Typography */
+  --sat-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --sat-font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+  --sat-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Font Sizes */
+  --sat-text-xs: 0.75rem;     /* 12px */
+  --sat-text-sm: 0.875rem;    /* 14px */
+  --sat-text-base: 1rem;      /* 16px */
+  --sat-text-lg: 1.125rem;    /* 18px */
+  --sat-text-xl: 1.25rem;     /* 20px */
+  --sat-text-2xl: 1.5rem;     /* 24px */
+  --sat-text-3xl: 1.875rem;   /* 30px */
+  --sat-text-4xl: 2.25rem;    /* 36px */
+  --sat-text-5xl: 3rem;       /* 48px */
+
+  /* Shadows */
+  --sat-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --sat-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --sat-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --sat-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --sat-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --sat-shadow-none: 0 0 #0000;
+
+  /* Border Radius */
+  --sat-radius-none: 0px;
+  --sat-radius-sm: 0.125rem;
+  --sat-radius: 0.25rem;
+  --sat-radius-md: 0.375rem;
+  --sat-radius-lg: 0.5rem;
+  --sat-radius-xl: 0.75rem;
+  --sat-radius-2xl: 1rem;
+  --sat-radius-3xl: 1.5rem;
+  --sat-radius-full: 9999px;
+
+  /* Z-Index */
+  --sat-z-0: 0;
+  --sat-z-10: 10;
+  --sat-z-20: 20;
+  --sat-z-30: 30;
+  --sat-z-40: 40;
+  --sat-z-50: 50;
+  --sat-z-auto: auto;
+}

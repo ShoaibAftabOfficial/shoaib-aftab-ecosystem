@@ -1,0 +1,49 @@
+/*
+=============================================================================
+  SAT CSS - Borders & Shadows
+=============================================================================
+*/
+
+/* Border Radius */
+.sat-rounded-none { border-radius: var(--sat-radius-none); }
+.sat-rounded-sm { border-radius: var(--sat-radius-sm); }
+.sat-rounded { border-radius: var(--sat-radius); }
+.sat-rounded-md { border-radius: var(--sat-radius-md); }
+.sat-rounded-lg { border-radius: var(--sat-radius-lg); }
+.sat-rounded-xl { border-radius: var(--sat-radius-xl); }
+.sat-rounded-2xl { border-radius: var(--sat-radius-2xl); }
+.sat-rounded-3xl { border-radius: var(--sat-radius-3xl); }
+.sat-rounded-full { border-radius: var(--sat-radius-full); }
+
+/* Border Width */
+.sat-border-0 { border-width: 0px; }
+.sat-border { border-width: 1px; }
+.sat-border-2 { border-width: 2px; }
+.sat-border-4 { border-width: 4px; }
+.sat-border-8 { border-width: 8px; }
+
+/* Specific Borders */
+.sat-border-t { border-top-width: 1px; }
+.sat-border-b { border-bottom-width: 1px; }
+.sat-border-l { border-left-width: 1px; }
+.sat-border-r { border-right-width: 1px; }
+
+.sat-border-t-0 { border-top-width: 0px; }
+.sat-border-b-0 { border-bottom-width: 0px; }
+.sat-border-l-0 { border-left-width: 0px; }
+.sat-border-r-0 { border-right-width: 0px; }
+
+/* Border Style */
+.sat-border-solid { border-style: solid; }
+.sat-border-dashed { border-style: dashed; }
+.sat-border-dotted { border-style: dotted; }
+.sat-border-double { border-style: double; }
+.sat-border-none { border-style: none; }
+
+/* Shadows */
+.sat-shadow-sm { box-shadow: var(--sat-shadow-sm); }
+.sat-shadow { box-shadow: var(--sat-shadow); }
+.sat-shadow-md { box-shadow: var(--sat-shadow-md); }
+.sat-shadow-lg { box-shadow: var(--sat-shadow-lg); }
+.sat-shadow-xl { box-shadow: var(--sat-shadow-xl); }
+.sat-shadow-none { box-shadow: var(--sat-shadow-none); }

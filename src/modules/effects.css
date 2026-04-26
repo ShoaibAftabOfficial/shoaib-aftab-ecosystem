@@ -1,0 +1,39 @@
+/*
+=============================================================================
+  SAT CSS - Effects (Opacity, Outlines)
+=============================================================================
+*/
+
+/* Opacity */
+.sat-opacity-0 { opacity: 0; }
+.sat-opacity-5 { opacity: 0.05; }
+.sat-opacity-10 { opacity: 0.1; }
+.sat-opacity-20 { opacity: 0.2; }
+.sat-opacity-25 { opacity: 0.25; }
+.sat-opacity-30 { opacity: 0.3; }
+.sat-opacity-40 { opacity: 0.4; }
+.sat-opacity-50 { opacity: 0.5; }
+.sat-opacity-60 { opacity: 0.6; }
+.sat-opacity-70 { opacity: 0.7; }
+.sat-opacity-75 { opacity: 0.75; }
+.sat-opacity-80 { opacity: 0.8; }
+.sat-opacity-90 { opacity: 0.9; }
+.sat-opacity-95 { opacity: 0.95; }
+.sat-opacity-100 { opacity: 1; }
+
+/* Outline */
+.sat-outline-none { outline: 2px solid transparent; outline-offset: 2px; }
+.sat-outline { outline-style: solid; }
+.sat-outline-dashed { outline-style: dashed; }
+.sat-outline-dotted { outline-style: dotted; }
+.sat-outline-double { outline-style: double; }
+
+/* Cursor */
+.sat-cursor-auto { cursor: auto; }
+.sat-cursor-default { cursor: default; }
+.sat-cursor-pointer { cursor: pointer; }
+.sat-cursor-wait { cursor: wait; }
+.sat-cursor-text { cursor: text; }
+.sat-cursor-move { cursor: move; }
+.sat-cursor-help { cursor: help; }
+.sat-cursor-not-allowed { cursor: not-allowed; }

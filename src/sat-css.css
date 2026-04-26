@@ -1,0 +1,22 @@
+/*
+ * SAT CSS Framework
+ * Version: 1.0.0
+ * License: MIT
+ * Copyright (c) 2024 Shoaib Aftab Tech
+ */
+
+@import './modules/variables.css';
+@import './modules/reset.css';
+@import './modules/colors.css';
+@import './modules/spacing.css';
+@import './modules/typography.css';
+@import './modules/layout.css';
+@import './modules/sizing.css';
+@import './modules/borders.css';
+@import './modules/effects.css';
+@import './modules/positioning.css';
+@import './modules/components.css';
+@import './modules/utilities.css';
+@import './modules/animations.css';
+@import './modules/rtl.css';
+@import './modules/print.css';

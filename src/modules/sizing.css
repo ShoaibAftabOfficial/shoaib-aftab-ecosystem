@@ -1,0 +1,87 @@
+/*
+=============================================================================
+  SAT CSS - Sizing (Width, Height, Max/Min)
+=============================================================================
+*/
+
+/* Width */
+.sat-w-0 { width: 0px; }
+.sat-w-px { width: 1px; }
+.sat-w-1 { width: 0.25rem; }
+.sat-w-2 { width: 0.5rem; }
+.sat-w-3 { width: 0.75rem; }
+.sat-w-4 { width: 1rem; }
+.sat-w-5 { width: 1.25rem; }
+.sat-w-6 { width: 1.5rem; }
+.sat-w-8 { width: 2rem; }
+.sat-w-10 { width: 2.5rem; }
+.sat-w-12 { width: 3rem; }
+.sat-w-16 { width: 4rem; }
+.sat-w-20 { width: 5rem; }
+.sat-w-24 { width: 6rem; }
+.sat-w-32 { width: 8rem; }
+.sat-w-40 { width: 10rem; }
+.sat-w-48 { width: 12rem; }
+.sat-w-56 { width: 14rem; }
+.sat-w-64 { width: 16rem; }
+.sat-w-auto { width: auto; }
+.sat-w-1\/2 { width: 50%; }
+.sat-w-1\/3 { width: 33.333333%; }
+.sat-w-2\/3 { width: 66.666667%; }
+.sat-w-1\/4 { width: 25%; }
+.sat-w-2\/4 { width: 50%; }
+.sat-w-3\/4 { width: 75%; }
+.sat-w-full { width: 100%; }
+.sat-w-screen { width: 100vw; }
+
+/* Height */
+.sat-h-0 { height: 0px; }
+.sat-h-px { height: 1px; }
+.sat-h-1 { height: 0.25rem; }
+.sat-h-2 { height: 0.5rem; }
+.sat-h-3 { height: 0.75rem; }
+.sat-h-4 { height: 1rem; }
+.sat-h-5 { height: 1.25rem; }
+.sat-h-6 { height: 1.5rem; }
+.sat-h-8 { height: 2rem; }
+.sat-h-10 { height: 2.5rem; }
+.sat-h-12 { height: 3rem; }
+.sat-h-16 { height: 4rem; }
+.sat-h-20 { height: 5rem; }
+.sat-h-24 { height: 6rem; }
+.sat-h-32 { height: 8rem; }
+.sat-h-40 { height: 10rem; }
+.sat-h-48 { height: 12rem; }
+.sat-h-56 { height: 14rem; }
+.sat-h-64 { height: 16rem; }
+.sat-h-auto { height: auto; }
+.sat-h-full { height: 100%; }
+.sat-h-screen { height: 100vh; }
+
+/* Max Width */
+.sat-max-w-xs { max-width: 20rem; }
+.sat-max-w-sm { max-width: 24rem; }
+.sat-max-w-md { max-width: 28rem; }
+.sat-max-w-lg { max-width: 32rem; }
+.sat-max-w-xl { max-width: 36rem; }
+.sat-max-w-2xl { max-width: 42rem; }
+.sat-max-w-3xl { max-width: 48rem; }
+.sat-max-w-4xl { max-width: 56rem; }
+.sat-max-w-5xl { max-width: 64rem; }
+.sat-max-w-6xl { max-width: 72rem; }
+.sat-max-w-7xl { max-width: 80rem; }
+.sat-max-w-full { max-width: 100%; }
+.sat-max-w-none { max-width: none; }
+
+/* Min Width */
+.sat-min-w-0 { min-width: 0px; }
+.sat-min-w-full { min-width: 100%; }
+.sat-min-w-min { min-width: min-content; }
+.sat-min-w-max { min-width: max-content; }
+
+/* Max/Min Height */
+.sat-min-h-0 { min-height: 0px; }
+.sat-min-h-full { min-height: 100%; }
+.sat-min-h-screen { min-height: 100vh; }
+.sat-max-h-full { max-height: 100%; }
+.sat-max-h-screen { max-height: 100vh; }
