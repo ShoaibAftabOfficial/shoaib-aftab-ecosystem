@@ -1,9 +1,17 @@
-# SAT CSS Framework
+# Shoaib Aftab Tech CSS
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A modern, lightweight, and self-contained CSS framework built for production.
+A modern, lightweight, and self-contained CSS framework built for production. Also known as **SAT CSS**.
 
-SAT CSS provides utility-first classes, layout systems, component foundations, and full RTL (Right-To-Left) support, making it an excellent choice for modern web development.
+## About Shoaib Aftab Tech
+💻 **Specializing in Custom Development:** We build future-proof software, intuitive mobile apps, professional websites, scalable e-commerce platforms, and API development (WhatsApp Business API).
+🔧 **Your End-to-End Partner:** From initial concept to successful scaling, we provide complete digital solutions for your business.
+🤝 **Ready to Build & Grow?** Let's connect to discuss your project and strategic goals.
+
+Visit us at: [shoaibaftab.com](https://shoaibaftab.com)
+Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
+
+---
 
 ## Features
 - **Zero Dependencies:** Pure CSS, no Javascript dependencies needed.
@@ -33,19 +41,6 @@ import '@shoaib-aftab-tech/css/dist/sat-css.min.css';
 
 ## Documentation
 Check out the `docs/` folder for comprehensive documentation, including usage examples, screenshots equivalents, and comprehensive guidelines on how to utilize every module.
-
-## Modules included
-- Variables & Reset
-- Colors (50+ classes)
-- Spacing (100+ classes)
-- Typography (60+ classes)
-- Layout (Flexbox & Grid, 80+ classes)
-- Sizing (Widths & Heights, 40+ classes)
-- Borders & Shadows (50+ classes)
-- Effects & Positioning
-- Components (Buttons, Cards, Inputs, 100+ classes)
-- Utilities & Animations (50+ classes)
-- RTL Support & Print Styles
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

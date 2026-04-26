@@ -1,6 +1,6 @@
-# SAT JS Documentation
+# Shoaib Aftab Tech JS Documentation
 
-Welcome to the comprehensive documentation for the **SAT JS** library.
+Welcome to the comprehensive documentation for the **Shoaib Aftab Tech JS** (SAT JS) library.
 
 SAT JS is a modern, lightweight JavaScript library focused on providing rapid utility functions and simplified DOM manipulation without the overhead of heavy frameworks like jQuery.
 
@@ -19,8 +19,8 @@ Include it in your project:
 <script src="node_modules/@shoaib-aftab-tech/js/dist/sat-js.min.js"></script>
 <script>
   // SAT is available globally
-  const btn = SAT.$('#my-btn');
-  SAT.on(btn, 'click', () => {
+  const btn = SAT.dom.$('#my-btn');
+  SAT.events.on(btn, 'click', () => {
     alert('Clicked!');
   });
 </script>
@@ -29,4 +29,7 @@ Include it in your project:
 ## Available Modules
 
 - [DOM Manipulation](dom.md)
-- [Utilities](utilities.md)
+- [Events](events.md)
+- [AJAX](ajax.md)
+- [Storage](storage.md)
+- [Utilities & String](utilities.md)

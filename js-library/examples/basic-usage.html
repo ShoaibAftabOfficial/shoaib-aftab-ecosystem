@@ -33,21 +33,21 @@
     // Wait for DOM
     document.addEventListener('DOMContentLoaded', () => {
 
-      // 1. Select elements using SAT.$
-      const btn = SAT.$('#action-btn');
-      const resultBox = SAT.$('#result-box');
-      const display = SAT.$('#uuid-display');
+      // 1. Select elements using SAT.dom.$
+      const btn = SAT.dom.$('#action-btn');
+      const resultBox = SAT.dom.$('#result-box');
+      const display = SAT.dom.$('#uuid-display');
 
-      // 2. Add event listener using SAT.on
-      SAT.on(btn, 'click', () => {
+      // 2. Add event listener using SAT.events.on
+      SAT.events.on(btn, 'click', () => {
         // 3. Use utility functions
-        const newId = SAT.uuid();
+        const newId = SAT.utilities.uuid();
         display.textContent = newId;
 
-        // 4. Manipulate classes using SAT.removeClass
-        SAT.removeClass(resultBox, 'hidden');
+        // 4. Manipulate classes using SAT.dom.removeClass
+        SAT.dom.removeClass(resultBox, 'hidden');
 
-        console.log('Action performed. Capitalized text demo:', SAT.capitalize('success'));
+        console.log('Action performed. Capitalized text demo:', SAT.string.capitalize('success'));
       });
 
     });
