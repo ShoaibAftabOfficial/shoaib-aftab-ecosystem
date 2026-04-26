@@ -1,0 +1,25 @@
+{
+  "name": "@shoaib-aftab-tech/js",
+  "version": "1.0.0",
+  "description": "A modern, lightweight JavaScript utility and DOM manipulation library.",
+  "main": "dist/sat-js.min.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoaib-aftab-tech/js.git"
+  },
+  "keywords": [
+    "javascript",
+    "utility",
+    "dom",
+    "library",
+    "sat-js"
+  ],
+  "author": "Shoaib Aftab Tech",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^5.30.0"
+  }
+}
