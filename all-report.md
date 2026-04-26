@@ -83,3 +83,46 @@ When instructing AI or a developer to create a new component (e.g., **SAT Admin 
 - **SAT CSS (`/src`, `/dist`):** Variables, Reset, Colors, Spacing, Typography, Layout, Sizing, Borders, Effects, Positioning, Components, Utilities, Animations, RTL, Print.
 - **SAT JS (`/js-library`):** Core, DOM, Events, AJAX, Selectors, Storage, Cookies, URL, String, Number, Array, Object, Date, Validation, Animation, Utilities, i18n, Polyfills.
 - **SAT Website (`/website-updated`):** Vite, PWA, Hero, Services, Products, Live JS Demo, Infinite Client Marquee, Contact Footer.
+
+---
+
+## 7. Detailed Library Features & Modules
+To ensure we do not duplicate efforts, here is the detailed breakdown of the groups and classes we have already built inside our libraries.
+
+### 🎨 SAT CSS Framework (Class Groups)
+We have built over 800+ utility classes organized into the following distinct categories:
+- **Variables (`variables.css`):** Core design tokens, color palettes (gray, primary, success, danger, warning, info), spacing scales, and shadows.
+- **Reset (`reset.css`):** Browser normalization and default tag styling.
+- **Colors (`colors.css`):** Backgrounds (`sat-bg-*`), Text (`sat-text-*`), and Borders (`sat-border-*`).
+- **Spacing (`spacing.css`):** Padding (`sat-p-*`, `sat-px-*`, etc.) and Margins (`sat-m-*`, `sat-mt-*`, etc.).
+- **Typography (`typography.css`):** Font families, sizes (`sat-text-sm`, `sat-text-4xl`), weights (`sat-font-bold`), alignment, and decorations.
+- **Layout (`layout.css`):** Display (`sat-block`, `sat-hidden`), Flexbox (`sat-flex`, `sat-justify-center`), Grid (`sat-grid-cols-3`), and Overflow.
+- **Sizing (`sizing.css`):** Width (`sat-w-*`), Height (`sat-h-*`), and Max/Min utilities.
+- **Borders & Shadows (`borders.css`):** Border radius (`sat-rounded-*`), border width, styles, and Box shadows (`sat-shadow-*`).
+- **Effects (`effects.css`):** Opacity (`sat-opacity-*`), Outlines, and Cursor styles.
+- **Positioning (`positioning.css`):** Static, absolute, relative, sticky, Inset (`sat-top-*`, `sat-inset-0`), and Z-Index (`sat-z-*`).
+- **Components (`components.css`):** Pre-built classes for Buttons (`sat-btn`, `sat-btn-primary`), Form Inputs (`sat-input`), Cards (`sat-card`), and Badges (`sat-badge`).
+- **Utilities (`utilities.css`):** Screen reader (`sat-sr-only`), user-select, visibility, and basic transitions (`sat-transition-*`).
+- **Animations (`animations.css`):** Spin, ping, pulse, and bounce (`sat-animate-*`).
+- **RTL (`rtl.css`):** Logical properties specifically for Urdu, Arabic, and Persian (`sat-ms-*`, `sat-pe-*`).
+- **Print (`print.css`):** Optimized styles for physical printing.
+
+### ⚙️ SAT JS Library (Module Categories)
+We have built a completely vanilla, modular JavaScript utility framework accessible via the global `SAT` object. It includes:
+- **DOM (`SAT.dom`):** Selection (`$`, `$$`), Class manipulation (`addClass`, `removeClass`, `toggleClass`).
+- **Selectors (`SAT.selectors`):** Advanced DOM traversal (`siblings`, `closest`).
+- **Events (`SAT.events`):** Listening and dispatching (`on`, `off`, `trigger`).
+- **AJAX (`SAT.ajax`):** Fetch wrappers for API calls (`get`, `post`).
+- **Storage (`SAT.storage`):** Automatic JSON parsing for `local` and `session` storage.
+- **Cookies (`SAT.cookies`):** Easy management (`setCookie`, `getCookie`, `removeCookie`).
+- **URL (`SAT.url`):** Query parameter parsing (`getQueryParam`, `getAllQueryParams`).
+- **String (`SAT.string`):** Formatting (`capitalize`, `toTitleCase`, `slugify`).
+- **Number (`SAT.number`):** Currency formatting (`formatCurrency`) and randomization (`random`).
+- **Array (`SAT.array`):** Data manipulation (`unique`, `shuffle`, `chunk`).
+- **Object (`SAT.object`):** Cloning and checking (`deepClone`, `isEmptyObject`).
+- **Date (`SAT.date`):** Formatting and comparisons (`format`, `isPast`).
+- **Validation (`SAT.validation`):** Form and data checks (`isEmail`, `isURL`, `isEmpty`).
+- **Animation (`SAT.animation`):** Smooth vanilla JS transitions (`fadeIn`, `fadeOut`).
+- **Utilities (`SAT.utilities`):** Common helpers (`isObject`, `debounce`, `uuid`).
+- **i18n (`SAT.i18n`):** Direction flipping (`setRTL`, `setLTR`).
+- **Polyfills (`initPolyfills`):** Fallbacks for older browsers.
