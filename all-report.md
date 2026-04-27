@@ -126,3 +126,9 @@ We have built a completely vanilla, modular JavaScript utility framework accessi
 - **Utilities (`SA.utilities`):** Common helpers (`isObject`, `debounce`, `uuid`).
 - **i18n (`SA.i18n`):** Direction flipping (`setRTL`, `setLTR`).
 - **Polyfills (`initPolyfills`):** Fallbacks for older browsers.
+
+### 🖼️ Shoaib Aftab Icons (SVG Library)
+We utilize a fully customized, local SVG sprite system for all icons, eliminating external dependencies like FontAwesome.
+- **File Structure:** Includes `sa-icons.css` and `sa-icons.svg`.
+- **Usage Syntax:** Utilizes the `.sa-icon` class combined with `<svg><use href="/sa-icons.svg#sa-icon-name"></use></svg>`.
+- **Styling:** Can be styled dynamically via CSS (colors, sizes like `.sa-icon-lg`, and shapes like `.sa-icon-round`).

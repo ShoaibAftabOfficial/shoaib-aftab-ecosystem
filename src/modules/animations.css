@@ -22,3 +22,25 @@
 .sa-animate-ping { animation: sa-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite; }
 .sa-animate-pulse { animation: sa-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
 .sa-animate-bounce { animation: sa-bounce 1s infinite; }
+
+/* Client Marquee Infinite Scroll */
+.sa-marquee-container {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 2rem;
+}
+
+.sa-marquee-content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: 2rem;
+    animation: sa-scroll 20s linear infinite;
+}
+
+@keyframes sa-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-100% - 2rem)); }
+}

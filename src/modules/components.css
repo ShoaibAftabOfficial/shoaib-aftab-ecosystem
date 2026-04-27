@@ -101,3 +101,41 @@
 .sa-badge-success { background-color: var(--sa-color-success-100); color: var(--sa-color-success-800); }
 .sa-badge-danger { background-color: var(--sa-color-danger-100); color: var(--sa-color-danger-800); }
 .sa-badge-warning { background-color: var(--sa-color-warning-100); color: var(--sa-color-warning-800); }
+
+/* Floating WhatsApp Button Component */
+.sa-fab-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: var(--sa-shadow-md, 0 4px 6px -1px rgba(0, 0, 0, 0.1));
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+.sa-fab-whatsapp:hover {
+    transform: scale(1.1);
+}
+
+/* Client Logo Component */
+.sa-client-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--sa-color-gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.sa-client-logo span {
+    font-size: 0.875rem;
+}

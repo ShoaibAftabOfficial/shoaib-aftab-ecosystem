@@ -1,8 +1,8 @@
+import './libs/sa-icons.css';
 // Import Shoaib Aftab CSS
 import './libs/shoaib-aftab.min.css';
 
 // Import Custom Styles overriding anything if strictly needed
-import './style.css';
 
 // The Shoaib Aftab JS library registers globally as window.SA based on our IIFE build
 import './libs/shoaib-aftab.min.js';
