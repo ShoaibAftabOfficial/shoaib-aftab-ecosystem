@@ -32,9 +32,9 @@ import { SA } from '@shoaib-aftab-tech/js';
 ```
 
 ### Direct Download
-Download the `dist/sa.min.js` file and include it in your HTML:
+Download the `dist/shoaib-aftab.min.js` file and include it in your HTML:
 ```html
-<script src="path/to/sa.min.js"></script>
+<script src="path/to/shoaib-aftab.min.js"></script>
 ```
 
 ## Documentation

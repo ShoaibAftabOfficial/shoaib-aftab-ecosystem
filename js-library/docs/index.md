@@ -16,7 +16,7 @@ npm install @shoaib-aftab-tech/js
 
 Include it in your project:
 ```html
-<script src="node_modules/@shoaib-aftab-tech/js/dist/sa.min.js"></script>
+<script src="node_modules/@shoaib-aftab-tech/js/dist/shoaib-aftab.min.js"></script>
 <script>
   // SA is available globally
   const btn = SA.dom.$('#my-btn');

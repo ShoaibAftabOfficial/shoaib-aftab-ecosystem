@@ -31,7 +31,7 @@ project-name/
 ├── src/                      # Source code
 │   ├── index.js / main.js    # Entry point
 │   └── modules/              # Categorized, modular files (e.g., dom.js, layout.css)
-├── dist/                     # Compiled/Minified outputs (e.g., sa.min.js, sa.min.css)
+├── dist/                     # Compiled/Minified outputs (e.g., shoaib-aftab.min.js, shoaib-aftab.min.css)
 ├── scripts/                  # Build scripts (e.g., build.js)
 ├── docs/                     # Comprehensive documentation (Markdown + Code Snippets + HTML Previews)
 └── examples/                 # Real-world HTML/JS implementations
@@ -57,8 +57,8 @@ Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
 ## 4. Build Systems & Minification
 - Avoid heavy external dependencies whenever possible (Zero dependency philosophy).
 - We write custom Node.js scripts in `scripts/build.js` using lightweight compilers.
-- **CSS:** Use `clean-css` to concatenate and minify `src/modules/*.css` into `dist/sa.min.css`.
-- **JS:** Use `terser` to compile `src/modules/*.js` into an IIFE/UMD bundle at `dist/sa.min.js`.
+- **CSS:** Use `clean-css` to concatenate and minify `src/modules/*.css` into `dist/shoaib-aftab.min.css`.
+- **JS:** Use `terser` to compile `src/modules/*.js` into an IIFE/UMD bundle at `dist/shoaib-aftab.min.js`.
 - **Websites:** Use **Vite** coupled with `vite-plugin-pwa` for blazing-fast development and Progressive Web App (PWA) generation.
 
 ---

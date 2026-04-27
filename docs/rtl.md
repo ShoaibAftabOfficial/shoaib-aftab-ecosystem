@@ -7,7 +7,7 @@ To enable RTL mode for languages like Urdu, Arabic, or Persian, simply set the `
 ```html
 <html dir="rtl" lang="ur">
   <head>
-    <link rel="stylesheet" href="sa.min.css">
+    <link rel="stylesheet" href="shoaib-aftab.min.css">
   </head>
   <body>
     <div class="sa-me-4">Margin End 4 (which becomes Margin Left in RTL)</div>

@@ -2,7 +2,7 @@
   "name": "@shoaib-aftab-tech/css",
   "version": "1.0.0",
   "description": "A modern, lightweight, and self-contained CSS framework built for production.",
-  "main": "dist/sa.min.css",
+  "main": "dist/shoaib-aftab.min.css",
   "scripts": {
     "build": "node scripts/build.js"
   },

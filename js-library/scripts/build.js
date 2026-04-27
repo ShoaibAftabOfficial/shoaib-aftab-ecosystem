@@ -101,7 +101,7 @@ async function build() {
 `;
 
   // Write unminified
-  fs.writeFileSync(path.join(distDir, 'sa.js'), bundleContent);
+  fs.writeFileSync(path.join(distDir, 'shoaib-aftab.js'), bundleContent);
 
   // Write minified
   try {
@@ -109,7 +109,7 @@ async function build() {
       compress: true,
       mangle: true
     });
-    fs.writeFileSync(path.join(distDir, 'sa.min.js'), minified.code);
+    fs.writeFileSync(path.join(distDir, 'shoaib-aftab.min.js'), minified.code);
     console.log('Build completed successfully.');
   } catch (err) {
     console.error('Build failed', err);

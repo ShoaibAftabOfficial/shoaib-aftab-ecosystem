@@ -44,7 +44,7 @@ if (!fs.existsSync(distDir)) {
 }
 
 // Write the unminified file
-const unminifiedPath = path.join(distDir, 'sa.css');
+const unminifiedPath = path.join(distDir, 'shoaib-aftab.css');
 fs.writeFileSync(unminifiedPath, cssContent);
 
 // Minify the CSS
@@ -59,7 +59,7 @@ const fullyMinified = new CleanCSS({
 }).minify(cssContent);
 
 // Write the minified file
-const minifiedPath = path.join(distDir, 'sa.min.css');
+const minifiedPath = path.join(distDir, 'shoaib-aftab.min.css');
 fs.writeFileSync(minifiedPath, `/* Shoaib Aftab CSS v1.0.0 | MIT License | Copyright (c) 2024 Shoaib Aftab Tech */\n${fullyMinified.styles}`);
 
 console.log('Build completed successfully.');

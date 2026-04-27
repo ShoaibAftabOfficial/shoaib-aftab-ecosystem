@@ -23,10 +23,10 @@ Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
 ## Quick Start
 
 ### Direct Download
-Download the `dist/sa.min.css` file and include it in your HTML:
+Download the `dist/shoaib-aftab.min.css` file and include it in your HTML:
 
 ```html
-<link rel="stylesheet" href="path/to/sa.min.css">
+<link rel="stylesheet" href="path/to/shoaib-aftab.min.css">
 ```
 
 ### Installation via NPM
@@ -36,7 +36,7 @@ npm install @shoaib-aftab-tech/css
 
 Then import it in your project:
 ```javascript
-import '@shoaib-aftab-tech/css/dist/sa.min.css';
+import '@shoaib-aftab-tech/css/dist/shoaib-aftab.min.css';
 ```
 
 ## Documentation

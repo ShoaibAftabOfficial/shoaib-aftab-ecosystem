@@ -14,7 +14,7 @@ npm install @shoaib-aftab-tech/css
 
 Include it in your project:
 ```html
-<link rel="stylesheet" href="node_modules/@shoaib-aftab-tech/css/dist/sa.min.css">
+<link rel="stylesheet" href="node_modules/@shoaib-aftab-tech/css/dist/shoaib-aftab.min.css">
 ```
 
 ## Available Modules
