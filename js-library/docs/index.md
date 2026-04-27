@@ -1,12 +1,12 @@
-# Shoaib Aftab Tech JS Documentation
+# Shoaib Aftab JS Documentation
 
-Welcome to the comprehensive documentation for the **Shoaib Aftab Tech JS** (SAT JS) library.
+Welcome to the comprehensive documentation for the **Shoaib Aftab JS** (Shoaib Aftab JS) library.
 
-SAT JS is a modern, lightweight JavaScript library focused on providing rapid utility functions and simplified DOM manipulation without the overhead of heavy frameworks like jQuery.
+Shoaib Aftab JS is a modern, lightweight JavaScript library focused on providing rapid utility functions and simplified DOM manipulation without the overhead of heavy frameworks like jQuery.
 
 ## Getting Started
 
-You can install SAT JS via NPM or download the script directly.
+You can install Shoaib Aftab JS via NPM or download the script directly.
 
 ```bash
 npm install @shoaib-aftab-tech/js
@@ -16,11 +16,11 @@ npm install @shoaib-aftab-tech/js
 
 Include it in your project:
 ```html
-<script src="node_modules/@shoaib-aftab-tech/js/dist/sat-js.min.js"></script>
+<script src="node_modules/@shoaib-aftab-tech/js/dist/sa.min.js"></script>
 <script>
-  // SAT is available globally
-  const btn = SAT.dom.$('#my-btn');
-  SAT.events.on(btn, 'click', () => {
+  // SA is available globally
+  const btn = SA.dom.$('#my-btn');
+  SA.events.on(btn, 'click', () => {
     alert('Clicked!');
   });
 </script>

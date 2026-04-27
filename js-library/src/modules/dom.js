@@ -1,5 +1,5 @@
 /**
- * SAT JS - DOM Manipulation Module
+ * Shoaib Aftab JS - DOM Manipulation Module
  */
 
 export function $(selector) {

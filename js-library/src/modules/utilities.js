@@ -1,5 +1,5 @@
 /**
- * SAT JS - Utilities Module
+ * Shoaib Aftab JS - Utilities Module
  */
 
 export function isObject(item) {

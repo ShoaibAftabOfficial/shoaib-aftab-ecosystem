@@ -1,6 +1,6 @@
-# Contributing to SAT CSS
+# Contributing to Shoaib Aftab CSS
 
-Thank you for your interest in contributing to SAT CSS! We welcome contributions from everyone.
+Thank you for your interest in contributing to Shoaib Aftab CSS! We welcome contributions from everyone.
 
 ## How to Contribute
 
@@ -12,7 +12,7 @@ Thank you for your interest in contributing to SAT CSS! We welcome contributions
 6. Open a Pull Request
 
 ## Coding Standards
-- Maintain the `sat-` prefix for all classes.
+- Maintain the `sa-` prefix for all classes.
 - Ensure cross-browser compatibility.
 - Follow the standard CSS conventions used throughout the library.
 - Keep the bundle size as small as possible.

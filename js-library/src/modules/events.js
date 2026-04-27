@@ -1,5 +1,5 @@
 /**
- * SAT JS - Events Module
+ * Shoaib Aftab JS - Events Module
  */
 import { $ } from './dom.js';
 

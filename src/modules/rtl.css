@@ -1,44 +1,44 @@
 /*
 =============================================================================
-  SAT CSS - RTL Support (Urdu, Arabic, Persian)
+  Shoaib Aftab CSS - RTL Support (Urdu, Arabic, Persian)
 =============================================================================
 */
 
-[dir="rtl"] .sat-ml-0 { margin-left: auto; margin-right: var(--sat-spacing-0); }
-[dir="rtl"] .sat-mr-0 { margin-right: auto; margin-left: var(--sat-spacing-0); }
-[dir="rtl"] .sat-pl-0 { padding-left: auto; padding-right: var(--sat-spacing-0); }
-[dir="rtl"] .sat-pr-0 { padding-right: auto; padding-left: var(--sat-spacing-0); }
+[dir="rtl"] .sa-ml-0 { margin-left: auto; margin-right: var(--sa-spacing-0); }
+[dir="rtl"] .sa-mr-0 { margin-right: auto; margin-left: var(--sa-spacing-0); }
+[dir="rtl"] .sa-pl-0 { padding-left: auto; padding-right: var(--sa-spacing-0); }
+[dir="rtl"] .sa-pr-0 { padding-right: auto; padding-left: var(--sa-spacing-0); }
 
 /* In a full build system (like Tailwind/PostCSS), RTL uses logical properties
    or specific selectors. Here we use CSS Logical Properties for modern support */
 
-.sat-ms-0 { margin-inline-start: var(--sat-spacing-0); }
-.sat-ms-1 { margin-inline-start: var(--sat-spacing-1); }
-.sat-ms-2 { margin-inline-start: var(--sat-spacing-2); }
-.sat-ms-3 { margin-inline-start: var(--sat-spacing-3); }
-.sat-ms-4 { margin-inline-start: var(--sat-spacing-4); }
+.sa-ms-0 { margin-inline-start: var(--sa-spacing-0); }
+.sa-ms-1 { margin-inline-start: var(--sa-spacing-1); }
+.sa-ms-2 { margin-inline-start: var(--sa-spacing-2); }
+.sa-ms-3 { margin-inline-start: var(--sa-spacing-3); }
+.sa-ms-4 { margin-inline-start: var(--sa-spacing-4); }
 
-.sat-me-0 { margin-inline-end: var(--sat-spacing-0); }
-.sat-me-1 { margin-inline-end: var(--sat-spacing-1); }
-.sat-me-2 { margin-inline-end: var(--sat-spacing-2); }
-.sat-me-3 { margin-inline-end: var(--sat-spacing-3); }
-.sat-me-4 { margin-inline-end: var(--sat-spacing-4); }
+.sa-me-0 { margin-inline-end: var(--sa-spacing-0); }
+.sa-me-1 { margin-inline-end: var(--sa-spacing-1); }
+.sa-me-2 { margin-inline-end: var(--sa-spacing-2); }
+.sa-me-3 { margin-inline-end: var(--sa-spacing-3); }
+.sa-me-4 { margin-inline-end: var(--sa-spacing-4); }
 
-.sat-ps-0 { padding-inline-start: var(--sat-spacing-0); }
-.sat-ps-1 { padding-inline-start: var(--sat-spacing-1); }
-.sat-ps-2 { padding-inline-start: var(--sat-spacing-2); }
-.sat-ps-3 { padding-inline-start: var(--sat-spacing-3); }
-.sat-ps-4 { padding-inline-start: var(--sat-spacing-4); }
+.sa-ps-0 { padding-inline-start: var(--sa-spacing-0); }
+.sa-ps-1 { padding-inline-start: var(--sa-spacing-1); }
+.sa-ps-2 { padding-inline-start: var(--sa-spacing-2); }
+.sa-ps-3 { padding-inline-start: var(--sa-spacing-3); }
+.sa-ps-4 { padding-inline-start: var(--sa-spacing-4); }
 
-.sat-pe-0 { padding-inline-end: var(--sat-spacing-0); }
-.sat-pe-1 { padding-inline-end: var(--sat-spacing-1); }
-.sat-pe-2 { padding-inline-end: var(--sat-spacing-2); }
-.sat-pe-3 { padding-inline-end: var(--sat-spacing-3); }
-.sat-pe-4 { padding-inline-end: var(--sat-spacing-4); }
+.sa-pe-0 { padding-inline-end: var(--sa-spacing-0); }
+.sa-pe-1 { padding-inline-end: var(--sa-spacing-1); }
+.sa-pe-2 { padding-inline-end: var(--sa-spacing-2); }
+.sa-pe-3 { padding-inline-end: var(--sa-spacing-3); }
+.sa-pe-4 { padding-inline-end: var(--sa-spacing-4); }
 
-.sat-text-start { text-align: start; }
-.sat-text-end { text-align: end; }
-.sat-float-start { float: inline-start; }
-.sat-float-end { float: inline-end; }
-.sat-clear-start { clear: inline-start; }
-.sat-clear-end { clear: inline-end; }
+.sa-text-start { text-align: start; }
+.sa-text-end { text-align: end; }
+.sa-float-start { float: inline-start; }
+.sa-float-end { float: inline-end; }
+.sa-clear-start { clear: inline-start; }
+.sa-clear-end { clear: inline-end; }

@@ -1,5 +1,5 @@
 /**
- * SAT JS - Selectors Module
+ * Shoaib Aftab JS - Selectors Module
  */
 import { $, $$ } from './dom.js';
 

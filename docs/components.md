@@ -1,14 +1,14 @@
 # Components
 
-Basic UI components are built into SAT CSS to save you time.
+Basic UI components are built into Shoaib Aftab CSS to save you time.
 
 ## Buttons
 
-Use `.sat-btn` combined with `.sat-btn-primary`, `.sat-btn-secondary`, or `.sat-btn-danger`.
+Use `.sa-btn` combined with `.sa-btn-primary`, `.sa-btn-secondary`, or `.sa-btn-danger`.
 
 ```html
-<button class="sat-btn sat-btn-primary">Primary Button</button>
-<button class="sat-btn sat-btn-danger">Delete</button>
+<button class="sa-btn sa-btn-primary">Primary Button</button>
+<button class="sa-btn sa-btn-danger">Delete</button>
 ```
 
 **Visual Representation:**
@@ -18,11 +18,11 @@ Use `.sat-btn` combined with `.sat-btn-primary`, `.sat-btn-secondary`, or `.sat-
 ## Cards
 
 ```html
-<div class="sat-card sat-max-w-sm">
-  <div class="sat-card-header sat-font-bold sat-text-lg">Card Title</div>
-  <div class="sat-card-body">This is the card body text.</div>
-  <div class="sat-card-footer sat-text-right">
-    <button class="sat-btn sat-btn-primary">Action</button>
+<div class="sa-card sa-max-w-sm">
+  <div class="sa-card-header sa-font-bold sa-text-lg">Card Title</div>
+  <div class="sa-card-body">This is the card body text.</div>
+  <div class="sa-card-footer sa-text-right">
+    <button class="sa-btn sa-btn-primary">Action</button>
   </div>
 </div>
 ```

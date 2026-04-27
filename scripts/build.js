@@ -25,7 +25,7 @@ const modules = [
 ];
 
 let cssContent = `/*
- * SAT CSS Framework
+ * Shoaib Aftab CSS Framework
  * Version: 1.0.0
  * License: MIT
  * Copyright (c) 2024 Shoaib Aftab Tech
@@ -44,7 +44,7 @@ if (!fs.existsSync(distDir)) {
 }
 
 // Write the unminified file
-const unminifiedPath = path.join(distDir, 'sat-css.css');
+const unminifiedPath = path.join(distDir, 'sa.css');
 fs.writeFileSync(unminifiedPath, cssContent);
 
 // Minify the CSS
@@ -59,8 +59,8 @@ const fullyMinified = new CleanCSS({
 }).minify(cssContent);
 
 // Write the minified file
-const minifiedPath = path.join(distDir, 'sat-css.min.css');
-fs.writeFileSync(minifiedPath, `/* SAT CSS v1.0.0 | MIT License | Copyright (c) 2024 Shoaib Aftab Tech */\n${fullyMinified.styles}`);
+const minifiedPath = path.join(distDir, 'sa.min.css');
+fs.writeFileSync(minifiedPath, `/* Shoaib Aftab CSS v1.0.0 | MIT License | Copyright (c) 2024 Shoaib Aftab Tech */\n${fullyMinified.styles}`);
 
 console.log('Build completed successfully.');
 console.log(`Original Size: ${(cssContent.length / 1024).toFixed(2)} KB`);

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoaib Aftab Tech | Software & API Development</title>
+  <meta name="description" content="Shoaib Aftab Tech: Custom Software Development, Mobile Apps, Laravel, and WhatsApp Business API integrations.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+        --sa-font-sans: 'Inter', system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body class="sa-bg-gray-50 sa-text-gray-800 sa-font-sans">
+
+  <!-- Navbar -->
+  <nav class="sa-bg-white sa-shadow-sm sa-sticky sa-top-0 sa-z-50">
+    <div class="sa-max-w-7xl sa-mx-auto sa-px-4 sa-flex sa-justify-between sa-items-center sa-h-16">
+      <div class="sa-flex sa-items-center sa-gap-2"><img src="https://shoaibaftab.com/images/favicon.ico" alt="Shoaib Aftab Tech Logo" class="sa-h-8 sa-w-8 sa-rounded-full"><span class="sa-text-2xl sa-font-black sa-text-primary-600">Shoaib Aftab Tech</span></div>
+
+      <!-- Desktop Menu -->
+      <div class="sa-hidden md:sa-flex sa-gap-6 sa-items-center">
+        <a href="#services" class="sa-text-gray-600 hover:sa-text-primary-600 sa-font-medium sa-transition">Services</a>
+        <a href="#products" class="sa-text-gray-600 hover:sa-text-primary-600 sa-font-medium sa-transition">Products</a>
+        <a href="#clients" class="sa-text-gray-600 hover:sa-text-primary-600 sa-font-medium sa-transition">Clients</a>
+        <button id="install-pwa-btn" class="sa-btn sa-btn-secondary sa-hidden">Install App</button>
+        <a href="#contact" class="sa-btn sa-btn-primary">Contact Us</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="sa-flex md:sa-hidden">
+        <button id="mobile-menu-btn" class="sa-text-gray-600 sa-p-2">
+          ☰
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="sa-hidden sa-bg-white sa-border-t sa-border-gray-100 sa-px-4 sa-py-2">
+        <a href="#services" class="sa-block sa-py-2 sa-text-gray-600">Services</a>
+        <a href="#products" class="sa-block sa-py-2 sa-text-gray-600">Products</a>
+        <a href="#clients" class="sa-block sa-py-2 sa-text-gray-600">Clients</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="sa-bg-white sa-py-20 sa-px-4 sa-text-center">
+    <div class="sa-max-w-4xl sa-mx-auto">
+      <h1 class="sa-text-5xl md:sa-text-6xl sa-font-black sa-text-gray-900 sa-mb-6">
+        Custom Software & <span class="sa-text-primary-600">API Development</span>
+      </h1>
+      <p class="sa-text-xl sa-text-gray-600 sa-mb-10 sa-leading-relaxed">
+        We build future-proof software, intuitive mobile apps, professional websites, and scalable e-commerce platforms. Specializing in Laravel development, PWA technology, and WhatsApp Business API integration.
+      </p>
+      <div class="sa-flex sa-flex-col sm:sa-flex-row sa-justify-center sa-gap-4">
+        <a href="#services" class="sa-btn sa-btn-primary sa-text-lg sa-px-8 sa-py-4">Explore Our Services</a>
+        <a href="#contact" class="sa-btn sa-btn-secondary sa-text-lg sa-px-8 sa-py-4">Let's Connect</a>
+      </div>
+    </div>
+  </header>
+
+  <script type="module" src="/src/main.js"></script>
+
+  <script>
+    // Inline script for mobile menu toggle
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if(btn && menu) {
+          btn.addEventListener('click', () => {
+              if(menu.classList.contains('sa-hidden')) {
+                  menu.classList.remove('sa-hidden');
+              } else {
+                  menu.classList.add('sa-hidden');
+              }
+          });
+      }
+
+      // PWA Install Logic
+      let deferredPrompt;
+      const installBtn = document.getElementById('install-pwa-btn');
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        installBtn.classList.remove('sa-hidden');
+      });
+
+      installBtn.addEventListener('click', async () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                installBtn.classList.add('sa-hidden');
+            }
+            deferredPrompt = null;
+        }
+      });
+    });
+  </script>
+
+  <!-- Services Section -->
+  <section id="services" class="sa-py-20 sa-px-4">
+    <div class="sa-max-w-7xl sa-mx-auto">
+      <div class="sa-text-center sa-mb-16">
+        <h2 class="sa-text-3xl sa-font-bold sa-mb-4">Our Complete Digital Solutions</h2>
+        <p class="sa-text-gray-600 sa-max-w-2xl sa-mx-auto">From initial concept to successful scaling, we provide robust custom solutions built on modern tech stacks.</p>
+      </div>
+
+      <div class="sa-grid sa-grid-cols-1 md:sa-grid-cols-2 lg:sa-grid-cols-3 sa-gap-8">
+        <!-- Service Card 1 -->
+        <div class="sa-card sa-p-6 sa-transition hover:sa-shadow-lg hover:-sa-translate-y-1">
+          <h3 class="sa-text-xl sa-font-bold sa-mb-3 sa-text-primary-600">Custom Software Development</h3>
+          <p class="sa-text-gray-600">We build future-proof, robust custom software tailored to your specific business logic and workflows.</p>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="sa-card sa-p-6 sa-transition hover:sa-shadow-lg hover:-sa-translate-y-1">
+          <h3 class="sa-text-xl sa-font-bold sa-mb-3 sa-text-primary-600">Mobile Apps (iOS & Android)</h3>
+          <p class="sa-text-gray-600">Intuitive, high-performance native and cross-platform mobile applications for all devices.</p>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="sa-card sa-p-6 sa-transition hover:sa-shadow-lg hover:-sa-translate-y-1">
+          <h3 class="sa-text-xl sa-font-bold sa-mb-3 sa-text-primary-600">Progressive Web Apps (PWA)</h3>
+          <p class="sa-text-gray-600">Deliver app-like experiences within the browser. Installable, offline-capable, and blazing fast.</p>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="sa-card sa-p-6 sa-transition hover:sa-shadow-lg hover:-sa-translate-y-1">
+          <h3 class="sa-text-xl sa-font-bold sa-mb-3 sa-text-primary-600">Laravel Development</h3>
+          <p class="sa-text-gray-600">Secure, scalable backend infrastructure and web portals powered by the Laravel PHP framework.</p>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="sa-card sa-p-6 sa-transition hover:sa-shadow-lg hover:-sa-translate-y-1">
+          <h3 class="sa-text-xl sa-font-bold sa-mb-3 sa-text-primary-600">WhatsApp Business API</h3>
+          <p class="sa-text-gray-600">Automate customer support and notifications with seamless WhatsApp API integrations.</p>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div class="sa-card sa-p-6 sa-transition hover:sa-shadow-lg hover:-sa-translate-y-1">
+          <h3 class="sa-text-xl sa-font-bold sa-mb-3 sa-text-primary-600">Facebook Meta Services</h3>
+          <p class="sa-text-gray-600">Get Blue Tick Verification assistance and expert Facebook Ads management to drive ROI.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="sa-bg-white sa-py-20 sa-px-4">
+    <div class="sa-max-w-7xl sa-mx-auto">
+      <div class="sa-text-center sa-mb-16">
+        <h2 class="sa-text-3xl sa-font-bold sa-mb-4">Our Open Source Products</h2>
+        <p class="sa-text-gray-600 sa-max-w-2xl sa-mx-auto">We don't just use tools, we build them. Check out our high-performance frameworks.</p>
+      </div>
+
+      <div class="sa-grid sa-grid-cols-1 md:sa-grid-cols-2 lg:sa-grid-cols-3 sa-gap-8">
+
+        <!-- Shoaib Aftab CSS -->
+        <div class="sa-card">
+            <div class="sa-card-header sa-bg-primary-50">
+                <h3 class="sa-font-black sa-text-xl sa-text-primary-700">Shoaib Aftab CSS Framework</h3>
+            </div>
+            <div class="sa-card-body">
+                <p class="sa-text-gray-600 sa-mb-4">A modern, utility-first CSS framework with zero dependencies and full RTL support (Urdu, Arabic, Persian).</p>
+                <div class="sa-flex sa-gap-2">
+                    <a href="docs/sa-css/" class="sa-btn sa-btn-primary sa-text-sm">Documentation</a>
+                    <a href="https://github.com/shoaib-aftab/css" class="sa-btn sa-btn-secondary sa-text-sm">Download</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shoaib Aftab JS -->
+        <div class="sa-card">
+            <div class="sa-card-header sa-bg-warning-50">
+                <h3 class="sa-font-black sa-text-xl sa-text-warning-700">Shoaib Aftab JS Library</h3>
+            </div>
+            <div class="sa-card-body">
+                <p class="sa-text-gray-600 sa-mb-4">A vanilla JavaScript library for DOM manipulation, utilities, events, AJAX, and more without the bloat.</p>
+                <div class="sa-flex sa-gap-2">
+                    <a href="docs/sa-js/" class="sa-btn sa-btn-primary sa-text-sm">Documentation</a>
+                    <a href="https://github.com/shoaib-aftab/js" class="sa-btn sa-btn-secondary sa-text-sm">Download</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- UI Kit -->
+        <div class="sa-card">
+            <div class="sa-card-header sa-bg-success-50">
+                <h3 class="sa-font-black sa-text-xl sa-text-success-700">SA UI Kit</h3>
+            </div>
+            <div class="sa-card-body">
+                <p class="sa-text-gray-600 sa-mb-4">A beautiful collection of pre-designed components built with Shoaib Aftab CSS and Shoaib Aftab JS for rapid prototyping.</p>
+                <div class="sa-flex sa-gap-2">
+                    <a href="#" class="sa-btn sa-btn-primary sa-text-sm">Preview Kit</a>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Live Demo App Logic -->
+      <div class="sa-mt-16 sa-bg-gray-50 sa-p-8 sa-rounded-lg sa-border sa-border-gray-200">
+        <h3 class="sa-text-2xl sa-font-bold sa-mb-4 sa-text-center">Live Demo Test (Powered by Shoaib Aftab JS)</h3>
+        <p class="sa-text-center sa-text-gray-600 sa-mb-6">Test our JS DOM & Storage utilities right here.</p>
+
+        <div class="sa-max-w-sm sa-mx-auto">
+            <input type="text" id="demo-username" placeholder="Demo Username" class="sa-input sa-mb-4">
+            <input type="password" id="demo-password" placeholder="Demo Password" class="sa-input sa-mb-4">
+            <button id="demo-login-btn" class="sa-btn sa-btn-primary sa-w-full">Test Login Logic</button>
+            <div id="demo-msg" class="sa-hidden sa-mt-4 sa-p-3 sa-rounded sa-text-center sa-font-bold"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Clients Marquee Section -->
+  <section id="clients" class="sa-py-16 sa-bg-gray-100 sa-overflow-hidden">
+    <div class="sa-max-w-7xl sa-mx-auto sa-px-4 sa-mb-8 sa-text-center">
+        <h2 class="sa-text-2xl sa-font-bold sa-text-gray-800">Trusted By Global Clients</h2>
+    </div>
+
+    <div class="client-marquee-container">
+        <!-- We duplicate the content to create a seamless infinite loop -->
+        <div class="client-marquee-content">
+            <div class="client-logo">🏢 <span>TechCorp Inc.</span></div>
+            <div class="client-logo">🌐 <span>GlobalWeb</span></div>
+            <div class="client-logo">🚀 <span>StartupX</span></div>
+            <div class="client-logo">🏦 <span>FinBank</span></div>
+            <div class="client-logo">🛒 <span>EcoShop</span></div>
+            <div class="client-logo">📱 <span>AppMasters</span></div>
+            <div class="client-logo">🏥 <span>HealthCare Plus</span></div>
+            <div class="client-logo">🎓 <span>EduTech Solutions</span></div>
+            <div class="client-logo">🏭 <span>Industrial Systems</span></div>
+            <div class="client-logo">✈️ <span>AeroTravel</span></div>
+        </div>
+        <div class="client-marquee-content">
+            <div class="client-logo">🏢 <span>TechCorp Inc.</span></div>
+            <div class="client-logo">🌐 <span>GlobalWeb</span></div>
+            <div class="client-logo">🚀 <span>StartupX</span></div>
+            <div class="client-logo">🏦 <span>FinBank</span></div>
+            <div class="client-logo">🛒 <span>EcoShop</span></div>
+            <div class="client-logo">📱 <span>AppMasters</span></div>
+            <div class="client-logo">🏥 <span>HealthCare Plus</span></div>
+            <div class="client-logo">🎓 <span>EduTech Solutions</span></div>
+            <div class="client-logo">🏭 <span>Industrial Systems</span></div>
+            <div class="client-logo">✈️ <span>AeroTravel</span></div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="sa-bg-gray-900 sa-text-gray-300 sa-py-12 sa-text-center">
+    <div class="sa-max-w-4xl sa-mx-auto sa-px-4">
+        <h2 class="sa-text-2xl sa-font-bold sa-text-white sa-mb-4">Ready to Build & Grow?</h2>
+        <p class="sa-mb-8">Let's connect to discuss your project and strategic goals.</p>
+        <a href="https://shoaibaftab.com" class="sa-text-primary-400 hover:sa-underline sa-mr-4">shoaibaftab.com</a>
+        <a href="https://facebook.com/ShoaibAftabTech" class="sa-text-primary-400 hover:sa-underline">Facebook Page</a>
+
+        <div class="sa-mt-12 sa-text-sm sa-text-gray-500">
+            &copy; 2024 Shoaib Aftab Tech. All rights reserved.
+        </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float" title="Contact us on WhatsApp">
+      <i class="fab fa-whatsapp" style="font-style: normal;">WA</i>
+  </a>
+
+  <!-- Script for Demo Login (using Shoaib Aftab JS) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Since SA is global
+        const loginBtn = SA.dom.$('#demo-login-btn');
+        const userInp = SA.dom.$('#demo-username');
+        const passInp = SA.dom.$('#demo-password');
+        const msgDiv = SA.dom.$('#demo-msg');
+
+        if(loginBtn) {
+            SA.events.on(loginBtn, 'click', () => {
+                const u = userInp.value;
+                const p = passInp.value;
+
+                SA.dom.removeClass(msgDiv, 'sa-hidden');
+
+                if(SA.validation.isEmpty(u) || SA.validation.isEmpty(p)) {
+                    SA.dom.removeClass(msgDiv, 'sa-bg-success-100');
+                    SA.dom.removeClass(msgDiv, 'sa-text-success-800');
+                    SA.dom.addClass(msgDiv, 'sa-bg-danger-100');
+                    SA.dom.addClass(msgDiv, 'sa-text-danger-800');
+                    msgDiv.textContent = 'Please fill out both fields.';
+                    return;
+                }
+
+                // Simulate saving token to SA Storage
+                SA.storage.local.set('demo_token', SA.utilities.uuid());
+
+                SA.dom.removeClass(msgDiv, 'sa-bg-danger-100');
+                SA.dom.removeClass(msgDiv, 'sa-text-danger-800');
+                SA.dom.addClass(msgDiv, 'sa-bg-success-100');
+                SA.dom.addClass(msgDiv, 'sa-text-success-800');
+                msgDiv.textContent = `Success! Welcome ${SA.string.capitalize(u)}. Token saved to local storage.`;
+            });
+        }
+    });
+  </script>
+
+</body>
+</html>

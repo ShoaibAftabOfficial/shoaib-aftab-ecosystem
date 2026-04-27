@@ -1,14 +1,14 @@
 # Colors
 
-SAT CSS provides a robust color palette consisting of various shades for grays, primary colors, success, danger, warning, and info states.
+Shoaib Aftab CSS provides a robust color palette consisting of various shades for grays, primary colors, success, danger, warning, and info states.
 
 ## Background Colors
 
-You can apply background colors using the `.sat-bg-{color}-{shade}` classes.
+You can apply background colors using the `.sa-bg-{color}-{shade}` classes.
 
 ### Example
 ```html
-<div class="sat-bg-primary-500 sat-text-white sat-p-4 sat-rounded">
+<div class="sa-bg-primary-500 sa-text-white sa-p-4 sa-rounded">
   This is a primary background box.
 </div>
 ```
@@ -20,11 +20,11 @@ You can apply background colors using the `.sat-bg-{color}-{shade}` classes.
 
 ## Text Colors
 
-Use `.sat-text-{color}-{shade}` to change the text color.
+Use `.sa-text-{color}-{shade}` to change the text color.
 
 ### Example
 ```html
-<p class="sat-text-danger-600">This text indicates an error.</p>
+<p class="sa-text-danger-600">This text indicates an error.</p>
 ```
 
 **Visual Representation:**

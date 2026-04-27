@@ -1,5 +1,5 @@
 /**
- * SAT JS - Number Module
+ * Shoaib Aftab JS - Number Module
  */
 export function formatCurrency(num, currency = 'USD', locale = 'en-US') {
   return new Intl.NumberFormat(locale, { style: 'currency', currency: currency }).format(num);

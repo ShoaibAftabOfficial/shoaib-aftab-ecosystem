@@ -42,7 +42,7 @@ async function build() {
 
   let bundleContent = `
 /**
- * Shoaib Aftab Tech JS (SAT JS)
+ * Shoaib Aftab JS (Shoaib Aftab JS)
  * Version: 1.0.0
  * License: MIT
  * Copyright (c) 2024 Shoaib Aftab Tech
@@ -50,7 +50,7 @@ async function build() {
 (function(global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.SAT = factory());
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.SA = factory());
 })(this, (function() {
   'use strict';
 
@@ -76,7 +76,7 @@ async function build() {
   // Initialize polyfills
   initPolyfills();
 
-  const SAT = {
+  const SA = {
     core,
     dom: { $, $$, addClass, removeClass, toggleClass },
     selectors: { siblings, closest },
@@ -96,12 +96,12 @@ async function build() {
     i18n: { setRTL, setLTR }
   };
 
-  return SAT;
+  return SA;
 }));
 `;
 
   // Write unminified
-  fs.writeFileSync(path.join(distDir, 'sat-js.js'), bundleContent);
+  fs.writeFileSync(path.join(distDir, 'sa.js'), bundleContent);
 
   // Write minified
   try {
@@ -109,7 +109,7 @@ async function build() {
       compress: true,
       mangle: true
     });
-    fs.writeFileSync(path.join(distDir, 'sat-js.min.js'), minified.code);
+    fs.writeFileSync(path.join(distDir, 'sa.min.js'), minified.code);
     console.log('Build completed successfully.');
   } catch (err) {
     console.error('Build failed', err);

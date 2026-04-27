@@ -1,11 +1,11 @@
 /*
 =============================================================================
-  SAT CSS - Utilities
+  Shoaib Aftab CSS - Utilities
 =============================================================================
 */
 
 /* Screen Reader Only */
-.sat-sr-only {
+.sa-sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -16,7 +16,7 @@
   white-space: nowrap;
   border-width: 0;
 }
-.sat-not-sr-only {
+.sa-not-sr-only {
   position: static;
   width: auto;
   height: auto;
@@ -28,37 +28,37 @@
 }
 
 /* Visibility */
-.sat-visible { visibility: visible; }
-.sat-invisible { visibility: hidden; }
+.sa-visible { visibility: visible; }
+.sa-invisible { visibility: hidden; }
 
 /* Pointer Events */
-.sat-pointer-events-none { pointer-events: none; }
-.sat-pointer-events-auto { pointer-events: auto; }
+.sa-pointer-events-none { pointer-events: none; }
+.sa-pointer-events-auto { pointer-events: auto; }
 
 /* User Select */
-.sat-select-none { user-select: none; }
-.sat-select-text { user-select: text; }
-.sat-select-all { user-select: all; }
-.sat-select-auto { user-select: auto; }
+.sa-select-none { user-select: none; }
+.sa-select-text { user-select: text; }
+.sa-select-all { user-select: all; }
+.sa-select-auto { user-select: auto; }
 
 /* Transitions */
-.sat-transition {
+.sa-transition {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.sat-transition-all {
+.sa-transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.sat-transition-none { transition-property: none; }
+.sa-transition-none { transition-property: none; }
 
-.sat-duration-75 { transition-duration: 75ms; }
-.sat-duration-100 { transition-duration: 100ms; }
-.sat-duration-150 { transition-duration: 150ms; }
-.sat-duration-200 { transition-duration: 200ms; }
-.sat-duration-300 { transition-duration: 300ms; }
-.sat-duration-500 { transition-duration: 500ms; }
-.sat-duration-700 { transition-duration: 700ms; }
-.sat-duration-1000 { transition-duration: 1000ms; }
+.sa-duration-75 { transition-duration: 75ms; }
+.sa-duration-100 { transition-duration: 100ms; }
+.sa-duration-150 { transition-duration: 150ms; }
+.sa-duration-200 { transition-duration: 200ms; }
+.sa-duration-300 { transition-duration: 300ms; }
+.sa-duration-500 { transition-duration: 500ms; }
+.sa-duration-700 { transition-duration: 700ms; }
+.sa-duration-1000 { transition-duration: 1000ms; }

@@ -2,7 +2,7 @@
   "name": "@shoaib-aftab-tech/js",
   "version": "1.0.0",
   "description": "A modern, lightweight JavaScript utility and DOM manipulation library.",
-  "main": "dist/sat-js.min.js",
+  "main": "dist/sa.min.js",
   "scripts": {
     "build": "node scripts/build.js"
   },
@@ -15,7 +15,7 @@
     "utility",
     "dom",
     "library",
-    "sat-js"
+    "sa-js"
   ],
   "author": "Shoaib Aftab Tech",
   "license": "MIT",

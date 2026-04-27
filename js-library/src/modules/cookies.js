@@ -1,5 +1,5 @@
 /**
- * SAT JS - Cookies Module
+ * Shoaib Aftab JS - Cookies Module
  */
 export function setCookie(name, value, days = 7) {
   let expires = "";

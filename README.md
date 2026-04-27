@@ -1,7 +1,7 @@
-# Shoaib Aftab Tech CSS
+# Shoaib Aftab CSS
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A modern, lightweight, and self-contained CSS framework built for production. Also known as **SAT CSS**.
+A modern, lightweight, and self-contained CSS framework built for production. Also known as **Shoaib Aftab CSS**.
 
 ## About Shoaib Aftab Tech
 💻 **Specializing in Custom Development:** We build future-proof software, intuitive mobile apps, professional websites, scalable e-commerce platforms, and API development (WhatsApp Business API).
@@ -23,10 +23,10 @@ Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
 ## Quick Start
 
 ### Direct Download
-Download the `dist/sat-css.min.css` file and include it in your HTML:
+Download the `dist/sa.min.css` file and include it in your HTML:
 
 ```html
-<link rel="stylesheet" href="path/to/sat-css.min.css">
+<link rel="stylesheet" href="path/to/sa.min.css">
 ```
 
 ### Installation via NPM
@@ -36,7 +36,7 @@ npm install @shoaib-aftab-tech/css
 
 Then import it in your project:
 ```javascript
-import '@shoaib-aftab-tech/css/dist/sat-css.min.css';
+import '@shoaib-aftab-tech/css/dist/sa.min.css';
 ```
 
 ## Documentation

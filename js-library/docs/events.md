@@ -1,32 +1,32 @@
 # Events Module
 
-SAT JS provides easy-to-use methods for handling events.
+Shoaib Aftab JS provides easy-to-use methods for handling events.
 
-### `SAT.events.on(element, event, handler)`
+### `SA.events.on(element, event, handler)`
 Attaches an event listener to an element.
 
 **Example:**
 ```javascript
-SAT.events.on('#submit-btn', 'click', function(e) {
+SA.events.on('#submit-btn', 'click', function(e) {
   e.preventDefault();
   console.log('Form submitted');
 });
 ```
 
-### `SAT.events.off(element, event, handler)`
+### `SA.events.off(element, event, handler)`
 Removes an event listener from an element.
 
 **Example:**
 ```javascript
 function handleClick() { console.log('Clicked'); }
-SAT.events.on('#btn', 'click', handleClick);
-SAT.events.off('#btn', 'click', handleClick);
+SA.events.on('#btn', 'click', handleClick);
+SA.events.off('#btn', 'click', handleClick);
 ```
 
-### `SAT.events.trigger(element, eventType, detail)`
+### `SA.events.trigger(element, eventType, detail)`
 Triggers a custom event on an element.
 
 **Example:**
 ```javascript
-SAT.events.trigger('#my-div', 'custom:refresh', { id: 123 });
+SA.events.trigger('#my-div', 'custom:refresh', { id: 123 });
 ```

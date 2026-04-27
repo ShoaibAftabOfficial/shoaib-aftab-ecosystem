@@ -1,5 +1,5 @@
 /**
- * SAT JS - String Utilities
+ * Shoaib Aftab JS - String Utilities
  */
 
 export function toTitleCase(str) {

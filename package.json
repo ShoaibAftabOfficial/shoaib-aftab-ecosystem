@@ -2,13 +2,13 @@
   "name": "@shoaib-aftab-tech/css",
   "version": "1.0.0",
   "description": "A modern, lightweight, and self-contained CSS framework built for production.",
-  "main": "dist/sat-css.min.css",
+  "main": "dist/sa.min.css",
   "scripts": {
     "build": "node scripts/build.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shoaib-aftab-tech/sat-css.git"
+    "url": "https://github.com/shoaib-aftab-tech/sa-css.git"
   },
   "keywords": [
     "css",
@@ -17,14 +17,14 @@
     "design-system",
     "utility-first",
     "rtl",
-    "sat-css"
+    "sa-css"
   ],
   "author": "Shoaib Aftab Tech",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shoaib-aftab-tech/sat-css/issues"
+    "url": "https://github.com/shoaib-aftab-tech/sa-css/issues"
   },
-  "homepage": "https://github.com/shoaib-aftab-tech/sat-css#readme",
+  "homepage": "https://github.com/shoaib-aftab-tech/sa-css#readme",
   "devDependencies": {
     "clean-css": "^5.3.3"
   }

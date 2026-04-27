@@ -1,7 +1,7 @@
-# Shoaib Aftab Tech JS
+# Shoaib Aftab JS
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A modern, lightweight, and self-contained JavaScript utility and DOM manipulation framework. Also known as **SAT JS**.
+A modern, lightweight, and self-contained JavaScript utility and DOM manipulation framework. Also known as **Shoaib Aftab JS**.
 
 ## About Shoaib Aftab Tech
 💻 **Specializing in Custom Development:** We build future-proof software, intuitive mobile apps, professional websites, scalable e-commerce platforms, and API development (WhatsApp Business API).
@@ -28,13 +28,13 @@ npm install @shoaib-aftab-tech/js
 
 Then import it in your project:
 ```javascript
-import { SAT } from '@shoaib-aftab-tech/js';
+import { SA } from '@shoaib-aftab-tech/js';
 ```
 
 ### Direct Download
-Download the `dist/sat-js.min.js` file and include it in your HTML:
+Download the `dist/sa.min.js` file and include it in your HTML:
 ```html
-<script src="path/to/sat-js.min.js"></script>
+<script src="path/to/sa.min.js"></script>
 ```
 
 ## Documentation

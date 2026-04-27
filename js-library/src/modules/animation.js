@@ -1,5 +1,5 @@
 /**
- * SAT JS - Animation Module
+ * Shoaib Aftab JS - Animation Module
  */
 import { $ } from './dom.js';
 

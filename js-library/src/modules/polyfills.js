@@ -1,5 +1,5 @@
 /**
- * SAT JS - Polyfills Module
+ * Shoaib Aftab JS - Polyfills Module
  */
 
 // Basic polyfill for Element.matches (for very old browsers)

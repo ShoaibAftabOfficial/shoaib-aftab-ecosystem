@@ -1,5 +1,5 @@
 /**
- * Shoaib Aftab Tech JS (SAT JS) - Main Entry Point
+ * Shoaib Aftab JS (Shoaib Aftab JS) - Main Entry Point
  */
 
 import { core } from './modules/core.js';
@@ -24,7 +24,7 @@ import { setRTL, setLTR } from './modules/i18n.js';
 // Initialize polyfills
 initPolyfills();
 
-const SAT = {
+const SA = {
   core,
   dom: { $, $$, addClass, removeClass, toggleClass },
   selectors: { siblings, closest },
@@ -44,9 +44,9 @@ const SAT = {
   i18n: { setRTL, setLTR }
 };
 
-export { SAT };
-export default SAT;
+export { SA };
+export default SA;
 
 if (typeof window !== 'undefined') {
-  window.SAT = SAT;
+  window.SA = SA;
 }

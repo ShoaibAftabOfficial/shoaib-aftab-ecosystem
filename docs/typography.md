@@ -1,15 +1,15 @@
 # Typography
 
-SAT CSS makes it easy to handle fonts, sizes, weights, and alignment.
+Shoaib Aftab CSS makes it easy to handle fonts, sizes, weights, and alignment.
 
 ## Font Sizes
 
-Use `.sat-text-{size}` classes to control the font size.
+Use `.sa-text-{size}` classes to control the font size.
 
 ### Example
 ```html
-<h1 class="sat-text-4xl sat-font-bold">Heading 4XL</h1>
-<p class="sat-text-base sat-text-gray-600">This is base level paragraph text.</p>
+<h1 class="sa-text-4xl sa-font-bold">Heading 4XL</h1>
+<p class="sa-text-base sa-text-gray-600">This is base level paragraph text.</p>
 ```
 
 **Visual Representation:**
@@ -18,10 +18,10 @@ Use `.sat-text-{size}` classes to control the font size.
 
 ## Text Alignment
 
-Classes: `.sat-text-left`, `.sat-text-center`, `.sat-text-right`, `.sat-text-justify`
+Classes: `.sa-text-left`, `.sa-text-center`, `.sa-text-right`, `.sa-text-justify`
 
 ```html
-<div class="sat-text-center sat-bg-gray-100 sat-p-4">
+<div class="sa-text-center sa-bg-gray-100 sa-p-4">
   Centered Text
 </div>
 ```

@@ -1,5 +1,5 @@
 /**
- * SAT JS - Validation Module
+ * Shoaib Aftab JS - Validation Module
  */
 
 export function isEmail(email) {

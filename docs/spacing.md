@@ -4,19 +4,19 @@ Control margin and padding using a proportional scale from `0` to `64`.
 
 ## Padding
 
-Use `.sat-p-{size}`, `.sat-px-{size}`, `.sat-py-{size}`, `.sat-pt-{size}`, etc.
+Use `.sa-p-{size}`, `.sa-px-{size}`, `.sa-py-{size}`, `.sa-pt-{size}`, etc.
 
 ```html
-<div class="sat-p-8 sat-bg-gray-200 sat-rounded">
+<div class="sa-p-8 sa-bg-gray-200 sa-rounded">
   Box with padding level 8 (2rem / 32px)
 </div>
 ```
 
 ## Margin
 
-Use `.sat-m-{size}`, `.sat-mx-{size}`, `.sat-my-{size}`, `.sat-mt-{size}`, etc.
+Use `.sa-m-{size}`, `.sa-mx-{size}`, `.sa-my-{size}`, `.sa-mt-{size}`, etc.
 
 ```html
-<div class="sat-mb-4 sat-p-4 sat-bg-primary-100">Item 1</div>
-<div class="sat-mb-4 sat-p-4 sat-bg-primary-100">Item 2</div>
+<div class="sa-mb-4 sa-p-4 sa-bg-primary-100">Item 1</div>
+<div class="sa-mb-4 sa-p-4 sa-bg-primary-100">Item 2</div>
 ```

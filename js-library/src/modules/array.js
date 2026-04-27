@@ -1,5 +1,5 @@
 /**
- * SAT JS - Array Module
+ * Shoaib Aftab JS - Array Module
  */
 export function unique(arr) {
   return [...new Set(arr)];

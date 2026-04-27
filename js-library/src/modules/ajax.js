@@ -1,5 +1,5 @@
 /**
- * SAT JS - AJAX Module
+ * Shoaib Aftab JS - AJAX Module
  */
 
 export async function get(url, headers = {}) {

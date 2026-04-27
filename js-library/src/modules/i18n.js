@@ -1,5 +1,5 @@
 /**
- * SAT JS - i18n & RTL Support
+ * Shoaib Aftab JS - i18n & RTL Support
  */
 
 export function setRTL() {

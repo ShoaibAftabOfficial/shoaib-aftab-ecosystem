@@ -1,5 +1,5 @@
 /**
- * SAT JS - Date Utilities
+ * Shoaib Aftab JS - Date Utilities
  */
 
 export function format(date, locale = 'en-US') {

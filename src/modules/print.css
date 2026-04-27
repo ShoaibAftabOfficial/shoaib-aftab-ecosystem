@@ -1,6 +1,6 @@
 /*
 =============================================================================
-  SAT CSS - Print Styles
+  Shoaib Aftab CSS - Print Styles
 =============================================================================
 */
 
@@ -43,7 +43,7 @@
   h2, h3 {
     page-break-after: avoid;
   }
-  .sat-hidden-print {
+  .sa-hidden-print {
     display: none !important;
   }
 }

@@ -1,40 +1,40 @@
 /*
 =============================================================================
-  SAT CSS - Positioning
+  Shoaib Aftab CSS - Positioning
 =============================================================================
 */
 
 /* Position */
-.sat-static { position: static; }
-.sat-fixed { position: fixed; }
-.sat-absolute { position: absolute; }
-.sat-relative { position: relative; }
-.sat-sticky { position: sticky; }
+.sa-static { position: static; }
+.sa-fixed { position: fixed; }
+.sa-absolute { position: absolute; }
+.sa-relative { position: relative; }
+.sa-sticky { position: sticky; }
 
 /* Top / Right / Bottom / Left */
-.sat-inset-0 { top: 0px; right: 0px; bottom: 0px; left: 0px; }
-.sat-inset-auto { top: auto; right: auto; bottom: auto; left: auto; }
-.sat-inset-y-0 { top: 0px; bottom: 0px; }
-.sat-inset-x-0 { right: 0px; left: 0px; }
+.sa-inset-0 { top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.sa-inset-auto { top: auto; right: auto; bottom: auto; left: auto; }
+.sa-inset-y-0 { top: 0px; bottom: 0px; }
+.sa-inset-x-0 { right: 0px; left: 0px; }
 
-.sat-top-0 { top: 0px; }
-.sat-right-0 { right: 0px; }
-.sat-bottom-0 { bottom: 0px; }
-.sat-left-0 { left: 0px; }
-.sat-top-auto { top: auto; }
-.sat-right-auto { right: auto; }
-.sat-bottom-auto { bottom: auto; }
-.sat-left-auto { left: auto; }
-.sat-top-1\/2 { top: 50%; }
-.sat-right-1\/2 { right: 50%; }
-.sat-bottom-1\/2 { bottom: 50%; }
-.sat-left-1\/2 { left: 50%; }
+.sa-top-0 { top: 0px; }
+.sa-right-0 { right: 0px; }
+.sa-bottom-0 { bottom: 0px; }
+.sa-left-0 { left: 0px; }
+.sa-top-auto { top: auto; }
+.sa-right-auto { right: auto; }
+.sa-bottom-auto { bottom: auto; }
+.sa-left-auto { left: auto; }
+.sa-top-1\/2 { top: 50%; }
+.sa-right-1\/2 { right: 50%; }
+.sa-bottom-1\/2 { bottom: 50%; }
+.sa-left-1\/2 { left: 50%; }
 
 /* Z-Index */
-.sat-z-0 { z-index: var(--sat-z-0); }
-.sat-z-10 { z-index: var(--sat-z-10); }
-.sat-z-20 { z-index: var(--sat-z-20); }
-.sat-z-30 { z-index: var(--sat-z-30); }
-.sat-z-40 { z-index: var(--sat-z-40); }
-.sat-z-50 { z-index: var(--sat-z-50); }
-.sat-z-auto { z-index: var(--sat-z-auto); }
+.sa-z-0 { z-index: var(--sa-z-0); }
+.sa-z-10 { z-index: var(--sa-z-10); }
+.sa-z-20 { z-index: var(--sa-z-20); }
+.sa-z-30 { z-index: var(--sa-z-30); }
+.sa-z-40 { z-index: var(--sa-z-40); }
+.sa-z-50 { z-index: var(--sa-z-50); }
+.sa-z-auto { z-index: var(--sa-z-auto); }

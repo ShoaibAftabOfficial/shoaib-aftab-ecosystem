@@ -1,5 +1,5 @@
 /**
- * SAT JS - URL Module
+ * Shoaib Aftab JS - URL Module
  */
 export function getQueryParam(param) {
   const urlParams = new URLSearchParams(window.location.search);

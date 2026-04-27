@@ -1,62 +1,62 @@
 /*
 =============================================================================
-  SAT CSS - Typography
+  Shoaib Aftab CSS - Typography
 =============================================================================
 */
 
 /* Font Family */
-.sat-font-sans { font-family: var(--sat-font-sans); }
-.sat-font-serif { font-family: var(--sat-font-serif); }
-.sat-font-mono { font-family: var(--sat-font-mono); }
+.sa-font-sans { font-family: var(--sa-font-sans); }
+.sa-font-serif { font-family: var(--sa-font-serif); }
+.sa-font-mono { font-family: var(--sa-font-mono); }
 
 /* Font Size */
-.sat-text-xs { font-size: var(--sat-text-xs); line-height: 1rem; }
-.sat-text-sm { font-size: var(--sat-text-sm); line-height: 1.25rem; }
-.sat-text-base { font-size: var(--sat-text-base); line-height: 1.5rem; }
-.sat-text-lg { font-size: var(--sat-text-lg); line-height: 1.75rem; }
-.sat-text-xl { font-size: var(--sat-text-xl); line-height: 1.75rem; }
-.sat-text-2xl { font-size: var(--sat-text-2xl); line-height: 2rem; }
-.sat-text-3xl { font-size: var(--sat-text-3xl); line-height: 2.25rem; }
-.sat-text-4xl { font-size: var(--sat-text-4xl); line-height: 2.5rem; }
-.sat-text-5xl { font-size: var(--sat-text-5xl); line-height: 1; }
+.sa-text-xs { font-size: var(--sa-text-xs); line-height: 1rem; }
+.sa-text-sm { font-size: var(--sa-text-sm); line-height: 1.25rem; }
+.sa-text-base { font-size: var(--sa-text-base); line-height: 1.5rem; }
+.sa-text-lg { font-size: var(--sa-text-lg); line-height: 1.75rem; }
+.sa-text-xl { font-size: var(--sa-text-xl); line-height: 1.75rem; }
+.sa-text-2xl { font-size: var(--sa-text-2xl); line-height: 2rem; }
+.sa-text-3xl { font-size: var(--sa-text-3xl); line-height: 2.25rem; }
+.sa-text-4xl { font-size: var(--sa-text-4xl); line-height: 2.5rem; }
+.sa-text-5xl { font-size: var(--sa-text-5xl); line-height: 1; }
 
 /* Font Weight */
-.sat-font-thin { font-weight: 100; }
-.sat-font-extralight { font-weight: 200; }
-.sat-font-light { font-weight: 300; }
-.sat-font-normal { font-weight: 400; }
-.sat-font-medium { font-weight: 500; }
-.sat-font-semibold { font-weight: 600; }
-.sat-font-bold { font-weight: 700; }
-.sat-font-extrabold { font-weight: 800; }
-.sat-font-black { font-weight: 900; }
+.sa-font-thin { font-weight: 100; }
+.sa-font-extralight { font-weight: 200; }
+.sa-font-light { font-weight: 300; }
+.sa-font-normal { font-weight: 400; }
+.sa-font-medium { font-weight: 500; }
+.sa-font-semibold { font-weight: 600; }
+.sa-font-bold { font-weight: 700; }
+.sa-font-extrabold { font-weight: 800; }
+.sa-font-black { font-weight: 900; }
 
 /* Text Alignment */
-.sat-text-left { text-align: left; }
-.sat-text-center { text-align: center; }
-.sat-text-right { text-align: right; }
-.sat-text-justify { text-align: justify; }
+.sa-text-left { text-align: left; }
+.sa-text-center { text-align: center; }
+.sa-text-right { text-align: right; }
+.sa-text-justify { text-align: justify; }
 
 /* Text Decoration */
-.sat-underline { text-decoration: underline; }
-.sat-line-through { text-decoration: line-through; }
-.sat-no-underline { text-decoration: none; }
+.sa-underline { text-decoration: underline; }
+.sa-line-through { text-decoration: line-through; }
+.sa-no-underline { text-decoration: none; }
 
 /* Text Transform */
-.sat-uppercase { text-transform: uppercase; }
-.sat-lowercase { text-transform: lowercase; }
-.sat-capitalize { text-transform: capitalize; }
-.sat-normal-case { text-transform: none; }
+.sa-uppercase { text-transform: uppercase; }
+.sa-lowercase { text-transform: lowercase; }
+.sa-capitalize { text-transform: capitalize; }
+.sa-normal-case { text-transform: none; }
 
 /* White Space */
-.sat-whitespace-normal { white-space: normal; }
-.sat-whitespace-nowrap { white-space: nowrap; }
-.sat-whitespace-pre { white-space: pre; }
-.sat-whitespace-pre-line { white-space: pre-line; }
-.sat-whitespace-pre-wrap { white-space: pre-wrap; }
+.sa-whitespace-normal { white-space: normal; }
+.sa-whitespace-nowrap { white-space: nowrap; }
+.sa-whitespace-pre { white-space: pre; }
+.sa-whitespace-pre-line { white-space: pre-line; }
+.sa-whitespace-pre-wrap { white-space: pre-wrap; }
 
 /* Word Break */
-.sat-break-normal { word-break: normal; overflow-wrap: normal; }
-.sat-break-words { overflow-wrap: break-word; }
-.sat-break-all { word-break: break-all; }
-.sat-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sa-break-normal { word-break: normal; overflow-wrap: normal; }
+.sa-break-words { overflow-wrap: break-word; }
+.sa-break-all { word-break: break-all; }
+.sa-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

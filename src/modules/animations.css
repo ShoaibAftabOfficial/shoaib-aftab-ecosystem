@@ -1,24 +1,24 @@
 /*
 =============================================================================
-  SAT CSS - Animations
+  Shoaib Aftab CSS - Animations
 =============================================================================
 */
 
-@keyframes sat-spin {
+@keyframes sa-spin {
   to { transform: rotate(360deg); }
 }
-@keyframes sat-ping {
+@keyframes sa-ping {
   75%, 100% { transform: scale(2); opacity: 0; }
 }
-@keyframes sat-pulse {
+@keyframes sa-pulse {
   50% { opacity: .5; }
 }
-@keyframes sat-bounce {
+@keyframes sa-bounce {
   0%, 100% { transform: translateY(-25%); animation-timing-function: cubic-bezier(0.8,0,1,1); }
   50% { transform: none; animation-timing-function: cubic-bezier(0,0,0.2,1); }
 }
 
-.sat-animate-spin { animation: sat-spin 1s linear infinite; }
-.sat-animate-ping { animation: sat-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite; }
-.sat-animate-pulse { animation: sat-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
-.sat-animate-bounce { animation: sat-bounce 1s infinite; }
+.sa-animate-spin { animation: sa-spin 1s linear infinite; }
+.sa-animate-ping { animation: sa-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite; }
+.sa-animate-pulse { animation: sa-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+.sa-animate-bounce { animation: sa-bounce 1s infinite; }
