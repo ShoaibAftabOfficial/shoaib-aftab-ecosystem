@@ -1,7 +1,13 @@
-# Shoaib Aftab JS
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<div align="center">
+  <img src="docs/assets/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
+  <h1>Shoaib Aftab JS Framework</h1>
+  <p><strong>A modern, lightweight, and self-contained JavaScript utility and DOM manipulation framework.</strong></p>
 
-A modern, lightweight, and self-contained JavaScript utility and DOM manipulation framework. Also known as **Shoaib Aftab JS**.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+  [![Version](https://img.shields.io/npm/v/@shoaib-aftab/js)](https://www.npmjs.com/package/@shoaib-aftab/js)
+</div>
+
+---
 
 ## About Shoaib Aftab Tech
 💻 **Specializing in Custom Development:** We build future-proof software, intuitive mobile apps, professional websites, scalable e-commerce platforms, and API development (WhatsApp Business API).
