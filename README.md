@@ -31,12 +31,12 @@ Download the `dist/shoaib-aftab.min.css` file and include it in your HTML:
 
 ### Installation via NPM
 ```bash
-npm install @shoaib-aftab-tech/css
+npm install @shoaib-aftab/css
 ```
 
 Then import it in your project:
 ```javascript
-import '@shoaib-aftab-tech/css/dist/shoaib-aftab.min.css';
+import '@shoaib-aftab/css/dist/shoaib-aftab.min.css';
 ```
 
 ## Documentation

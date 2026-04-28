@@ -9,14 +9,14 @@ Shoaib Aftab JS is a modern, lightweight JavaScript library focused on providing
 You can install Shoaib Aftab JS via NPM or download the script directly.
 
 ```bash
-npm install @shoaib-aftab-tech/js
+npm install @shoaib-aftab/js
 ```
 
 ### Browser Usage
 
 Include it in your project:
 ```html
-<script src="node_modules/@shoaib-aftab-tech/js/dist/shoaib-aftab.min.js"></script>
+<script src="node_modules/@shoaib-aftab/js/dist/shoaib-aftab.min.js"></script>
 <script>
   // SA is available globally
   const btn = SA.dom.$('#my-btn');

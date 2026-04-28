@@ -9,12 +9,12 @@ Shoaib Aftab CSS is a modern, lightweight, utility-first CSS framework designed 
 To get started with Shoaib Aftab CSS, you can either install it via NPM or download it directly.
 
 ```bash
-npm install @shoaib-aftab-tech/css
+npm install @shoaib-aftab/css
 ```
 
 Include it in your project:
 ```html
-<link rel="stylesheet" href="node_modules/@shoaib-aftab-tech/css/dist/shoaib-aftab.min.css">
+<link rel="stylesheet" href="node_modules/@shoaib-aftab/css/dist/shoaib-aftab.min.css">
 ```
 
 ## Available Modules

@@ -23,12 +23,12 @@ Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
 
 ### Installation via NPM
 ```bash
-npm install @shoaib-aftab-tech/js
+npm install @shoaib-aftab/js
 ```
 
 Then import it in your project:
 ```javascript
-import { SA } from '@shoaib-aftab-tech/js';
+import { SA } from '@shoaib-aftab/js';
 ```
 
 ### Direct Download
