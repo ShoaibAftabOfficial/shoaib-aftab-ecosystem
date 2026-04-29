@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/assets/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
+  <img src="https://shoaibaftab.com/images/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
   <h1>Shoaib Aftab CSS Framework</h1>
   <p><strong>A modern, lightweight, and self-contained CSS framework built for production.</strong></p>
 
