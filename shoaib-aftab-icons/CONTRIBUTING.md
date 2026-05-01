@@ -1,6 +1,6 @@
-# Contributing to Shoaib Aftab JS
+# Contributing to Shoaib Aftab CSS
 
-Thank you for your interest in contributing to Shoaib Aftab JS! We welcome contributions from everyone.
+Thank you for your interest in contributing to Shoaib Aftab CSS! We welcome contributions from everyone.
 
 ## How to Contribute
 
