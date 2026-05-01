@@ -1,7 +1,22 @@
-# Shoaib Aftab Icons (Icon Library)
+<div align="center">
+  <img src="https://shoaibaftab.com/images/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
+  <h1>Shoaib Aftab Icon Library</h1>
+  <p><strong>A massive icon library with 500+ standard and brand SVGs with zero dependencies. 100% self-contained.</strong></p>
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+  [![Version](https://img.shields.io/npm/v/@shoaib-aftab/icons)](https://www.npmjs.com/package/@shoaib-aftab/icons)
+</div>
+
+---
 ## About Shoaib Aftab Tech
-We specialize in Custom Development, Software Engineering, and API Development (specifically WhatsApp Business API).
+💻 **Specializing in Custom Development:** We build future-proof software, intuitive mobile apps, professional websites, scalable e-commerce platforms, and API development (WhatsApp Business API).
+🔧 **Your End-to-End Partner:** From initial concept to successful scaling, we provide complete digital solutions for your business.
+🤝 **Ready to Build & Grow?** Let's connect to discuss your project and strategic goals.
+
+Visit us at: [shoaibaftab.com](https://shoaibaftab.com)
+Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
+
+---
 
 ## Introduction
 Shoaib Aftab Icons is a comprehensive, standalone **Icon Library** featuring 500+ standard and brand SVGs with **zero dependencies**. It is highly optimized and includes multiple variants for each icon, including:

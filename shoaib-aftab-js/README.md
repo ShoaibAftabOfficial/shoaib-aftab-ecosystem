@@ -1,7 +1,22 @@
-# Shoaib Aftab JS (Framework)
+<div align="center">
+  <img src="https://shoaibaftab.com/images/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
+  <h1>Shoaib Aftab JS Framework</h1>
+  <p><strong>A pure Vanilla JavaScript Framework with zero dependencies. 100% self-contained.</strong></p>
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+  [![Version](https://img.shields.io/npm/v/@shoaib-aftab/js)](https://www.npmjs.com/package/@shoaib-aftab/js)
+</div>
+
+---
 ## About Shoaib Aftab Tech
-We specialize in Custom Development, Software Engineering, and API Development (specifically WhatsApp Business API).
+💻 **Specializing in Custom Development:** We build future-proof software, intuitive mobile apps, professional websites, scalable e-commerce platforms, and API development (WhatsApp Business API).
+🔧 **Your End-to-End Partner:** From initial concept to successful scaling, we provide complete digital solutions for your business.
+🤝 **Ready to Build & Grow?** Let's connect to discuss your project and strategic goals.
+
+Visit us at: [shoaibaftab.com](https://shoaibaftab.com)
+Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
+
+---
 
 ## Introduction
 Shoaib Aftab JS is a powerful, utility-driven **Vanilla JavaScript Framework** built with absolutely **zero dependencies**. It strictly adheres to ECMAScript (W3C) specifications. It provides a robust set of 150+ functions under the global `SA` namespace, enabling DOM manipulation, AJAX, validation, string manipulation, and more, all without relying on third-party libraries.

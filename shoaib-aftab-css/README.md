@@ -1,7 +1,22 @@
-# Shoaib Aftab CSS (Framework)
+<div align="center">
+  <img src="https://shoaibaftab.com/images/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
+  <h1>Shoaib Aftab CSS Framework</h1>
+  <p><strong>A modern, lightweight, and self-contained CSS framework built for production.</strong></p>
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+  [![Version](https://img.shields.io/npm/v/@shoaib-aftab/css)](https://www.npmjs.com/package/@shoaib-aftab/css)
+</div>
+
+---
 ## About Shoaib Aftab Tech
-We specialize in Custom Development, Software Engineering, and API Development (specifically WhatsApp Business API).
+💻 **Specializing in Custom Development:** We build future-proof software, intuitive mobile apps, professional websites, scalable e-commerce platforms, and API development (WhatsApp Business API).
+🔧 **Your End-to-End Partner:** From initial concept to successful scaling, we provide complete digital solutions for your business.
+🤝 **Ready to Build & Grow?** Let's connect to discuss your project and strategic goals.
+
+Visit us at: [shoaibaftab.com](https://shoaibaftab.com)
+Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
+
+---
 
 ## Introduction
 Shoaib Aftab CSS is a modern, lightweight, and 100% self-contained **CSS Framework**. It is built strictly on W3C CSS Specifications with absolutely **zero dependencies**. It features over 400 utility classes, full RTL support for Urdu/Arabic, and built-in Dark Mode.
