@@ -23,12 +23,22 @@ Shoaib Aftab CSS is a modern, lightweight, and 100% self-contained **CSS Framewo
 
 ## Installation
 
-### NPM
+### 1. NPM
 ```bash
 npm install @shoaib-aftab/css
 ```
 
-### CDN
+### 2. jsDelivr CDN (NPM)
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoaib-aftab/css@latest/dist/shoaib-aftab.min.css">
+```
+
+### 3. jsDelivr CDN (GitHub)
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaib-aftab-tech/shoaib-aftab-css@main/dist/shoaib-aftab.min.css">
+```
+
+### 4. Unpkg CDN
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@shoaib-aftab/css/dist/shoaib-aftab.min.css">
 ```

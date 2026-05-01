@@ -26,12 +26,22 @@ Shoaib Aftab Icons is a comprehensive, standalone **Icon Library** featuring 500
 
 ## Installation
 
-### NPM
+### 1. NPM
 ```bash
 npm install @shoaib-aftab/icons
 ```
 
-### CDN
+### 2. jsDelivr CDN (NPM)
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoaib-aftab/icons@latest/dist/sa-icons.min.css">
+```
+
+### 3. jsDelivr CDN (GitHub)
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaib-aftab-tech/shoaib-aftab-icons@main/dist/sa-icons.min.css">
+```
+
+### 4. Unpkg CDN
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@shoaib-aftab/icons/dist/sa-icons.min.css">
 ```

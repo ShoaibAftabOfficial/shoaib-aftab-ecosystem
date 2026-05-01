@@ -23,12 +23,22 @@ Shoaib Aftab JS is a powerful, utility-driven **Vanilla JavaScript Framework** b
 
 ## Installation
 
-### NPM
+### 1. NPM
 ```bash
 npm install @shoaib-aftab/js
 ```
 
-### CDN
+### 2. jsDelivr CDN (NPM)
+```html
+<script src="https://cdn.jsdelivr.net/npm/@shoaib-aftab/js@latest/dist/shoaib-aftab.min.js"></script>
+```
+
+### 3. jsDelivr CDN (GitHub)
+```html
+<script src="https://cdn.jsdelivr.net/gh/shoaib-aftab-tech/shoaib-aftab-js@main/dist/shoaib-aftab.min.js"></script>
+```
+
+### 4. Unpkg CDN
 ```html
 <script src="https://unpkg.com/@shoaib-aftab/js/dist/shoaib-aftab.min.js"></script>
 ```
