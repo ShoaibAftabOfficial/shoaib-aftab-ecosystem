@@ -1,64 +1,127 @@
 # Shoaib Aftab Ecosystem - Publishing & Release Guide
 
-This guide provides step-by-step instructions on how to publish the `shoaib-aftab-css`, `shoaib-aftab-js`, and `shoaib-aftab-icons` libraries to GitHub and NPM, and how to create a public release to transition from a Beta version to a stable production version.
+یہ گائیڈ آپ کو قدم بہ قدم بتائے گی کہ کوڈ کو GitHub اور NPM پر کیسے اپلوڈ کرنا ہے، اور GitHub پر Release کیسے بنانی ہے تاکہ آپ کے پراجیکٹس Beta ورژن سے نکل کر پبلک Production ورژن بن جائیں۔ نیچے دیے گئے ٹائٹل اور ڈسکرپشن آپ براہ راست کاپی کر کے استعمال کر سکتے ہیں۔
 
 ---
 
 ## 1. Committing & Pushing Code to GitHub
+اپنے کمپیوٹر سے کوڈ GitHub پر بھیجنے کے لیے ٹرمینل (Terminal) میں یہ کمانڈز چلائیں:
 
-When you have made changes to your code locally and are ready to upload them to your GitHub repository, follow these steps:
-
-1. **Open your terminal** and navigate to your project root (e.g., `cd shoaib-aftab-css`).
-2. **Check the status** of your changed files:
-   `git status`
-3. **Stage the changes** you want to commit:
-   `git add .`
-4. **Commit the changes** with a descriptive message:
-   `git commit -m "feat: added new utility classes and improved documentation"`
-5. **Push the code** to the main branch on GitHub:
-   `git push origin main`
+1. `git status` (تبدیلیاں چیک کرنے کے لیے)
+2. `git add .` (تمام فائلوں کو شامل کرنے کے لیے)
+3. `git commit -m "feat: initial stable release of ecosystem"` (تبدیلی کا نام)
+4. `git push origin main` (GitHub پر بھیجنے کے لیے)
 
 ---
 
 ## 2. Publishing to NPM
+NPM پر پبلش کرنے کے لیے آپ کو باری باری تینوں فولڈرز کے اندر جا کر یہ کمانڈز چلانی ہیں:
 
-To make your package available on NPM (so users can run `npm install @shoaib-aftab/css`), follow these steps for each folder:
+### Shoaib Aftab CSS کے لیے:
+1. `cd shoaib-aftab-css`
+2. `npm run build`
+3. `npm publish --access public`
+4. `cd ..`
 
-1. **Navigate to the target folder** (e.g., `cd shoaib-aftab-css`).
-2. **Ensure your build is up-to-date:**
-   `npm run build`
-3. **Log in to NPM** (if you haven't already):
-   `npm login`
-   *(Enter your NPM username, password, and email).*
-4. **Update the version number** in `package.json` if this is a new release (e.g., change `"1.0.0"` to `"1.0.1"`).
-5. **Publish the package**:
-   `npm publish --access public`
-   *(The `--access public` flag is necessary for scoped packages like `@shoaib-aftab/css`).*
+### Shoaib Aftab JS کے لیے:
+1. `cd shoaib-aftab-js`
+2. `npm run build`
+3. `npm publish --access public`
+4. `cd ..`
+
+### Shoaib Aftab Icons کے لیے:
+1. `cd shoaib-aftab-icons`
+2. `npm run build`
+3. `npm publish --access public`
+4. `cd ..`
+
+*(نوٹ: اگر آپ نے NPM پر لاگ ان نہیں کیا ہوا تو پہلے `npm login` چلا لیں۔)*
 
 ---
 
-## 3. Creating a Public Release on GitHub
+## 3. Creating a Public Release on GitHub (کاپی پیسٹ مواد)
 
-Creating a GitHub Release marks a specific point in your code's history as a stable version. This signals to your users that the code is no longer in "Beta" and is ready for production use.
+GitHub پر Release بنانے سے آپ کا پروجیکٹ باقاعدہ مستند (Stable) مانا جاتا ہے۔ GitHub پر اپنی ریپوزٹری کھولیں، دائیں جانب **"Releases"** پر کلک کریں اور پھر **"Draft a new release"** پر کلک کریں۔ نیچے دیا گیا مواد ہر لائبریری کے حساب سے کاپی اور پیسٹ کریں۔
 
-### Step-by-Step Instructions:
-1. Go to your repository page on GitHub (e.g., `https://github.com/shoaib-aftab-tech/shoaib-aftab-css`).
-2. On the right side of the screen, look for the **Releases** section and click on **Create a new release** (or **Draft a new release**).
-3. **Choose a tag:** Type a new tag matching your version (e.g., `v1.0.0`) and click **Create new tag: v1.0.0 on publish**.
-4. **Release Title:** Use the tag name or a short description (e.g., `v1.0.0 - Initial Stable Release`).
-5. **Release Description:** Provide details about what this release includes. Example:
+### 🎨 1. Shoaib Aftab CSS (Framework) کے لیے
 
-   ## 🚀 Shoaib Aftab CSS v1.0.0 is Here!
+- **Choose a tag (ٹیگ کے خانے میں لکھیں):** `css-v1.0.0`
+- **Release title (ٹائٹل کے خانے میں لکھیں):**
+  ```text
+  Shoaib Aftab CSS Framework v1.0.0 - Stable Release 🚀
+  ```
+- **Describe this release (ڈسکرپشن کے بڑے خانے میں یہ پورا کاپی کر کے پیسٹ کریں):**
+  ```markdown
+  ## 🎉 First Stable Release of Shoaib Aftab CSS Framework
 
-   We are excited to announce the first stable release of the Shoaib Aftab CSS Framework!
+  We are thrilled to announce the official `v1.0.0` production-ready release of the **Shoaib Aftab CSS Framework**. This release marks the transition out of the Beta phase.
 
-   ### Key Features:
-   - **Zero Dependencies:** Pure W3C standard CSS.
-   - **Utility Classes:** 400+ utility classes.
-   - **RTL & Dark Mode:** Full native support.
+  ### 🔥 Key Features & Highlights:
+  - **100% Zero Dependencies:** Pure W3C CSS architecture. No Tailwind, no Bootstrap required.
+  - **Utility-First Design:** Over 400+ highly optimized utility classes for rapid UI development.
+  - **Native RTL Support:** Seamless automated integration for Urdu, Arabic, and Persian layouts.
+  - **Dark Mode Ready:** Built-in `prefers-color-scheme` media queries.
+  - **Modular Architecture:** Organized perfectly into Variables, Colors, Layouts, Typography, and Components.
 
-   *(Note: This official release removes the Beta status, making the framework production-ready!)*
+  **Installation:**
+  ```bash
+  npm install @shoaib-aftab/css
+  ```
+  ```
 
-6. **Publish:** Scroll down and click the **Publish release** button.
+---
 
-Once published, GitHub automatically packages your code at that exact version, removing the "Beta" implication and providing a clear, stable download for developers worldwide.
+### ⚙️ 2. Shoaib Aftab JS (Framework) کے لیے
+
+- **Choose a tag (ٹیگ کے خانے میں لکھیں):** `js-v1.0.0`
+- **Release title (ٹائٹل کے خانے میں لکھیں):**
+  ```text
+  Shoaib Aftab JS Framework v1.0.0 - Stable Release 🚀
+  ```
+- **Describe this release (ڈسکرپشن کے بڑے خانے میں یہ پورا کاپی کر کے پیسٹ کریں):**
+  ```markdown
+  ## 🎉 First Stable Release of Shoaib Aftab JS Framework
+
+  We are thrilled to announce the official `v1.0.0` production-ready release of the **Shoaib Aftab JS Framework**.
+
+  ### 🔥 Key Features & Highlights:
+  - **100% Zero Dependencies:** Pure Vanilla JavaScript (ECMAScript standards). No jQuery or external tools needed.
+  - **Global `SA` Namespace:** Clean, non-polluting architecture for DOM, Events, and AJAX.
+  - **150+ Utility Functions:** Fully equipped with functions for String, Array, Object manipulation, Date formatting, and Data Validation.
+  - **Lightweight:** Highly minified for maximum performance in modern browsers.
+
+  **Installation:**
+  ```bash
+  npm install @shoaib-aftab/js
+  ```
+  ```
+
+---
+
+### 🖼️ 3. Shoaib Aftab Icons (Library) کے لیے
+
+- **Choose a tag (ٹیگ کے خانے میں لکھیں):** `icons-v1.0.0`
+- **Release title (ٹائٹل کے خانے میں لکھیں):**
+  ```text
+  Shoaib Aftab Icon Library v1.0.0 - Stable Release 🚀
+  ```
+- **Describe this release (ڈسکرپشن کے بڑے خانے میں یہ پورا کاپی کر کے پیسٹ کریں):**
+  ```markdown
+  ## 🎉 First Stable Release of Shoaib Aftab Icon Library
+
+  We are thrilled to announce the official `v1.0.0` production-ready release of the **Shoaib Aftab Icon Library**.
+
+  ### 🔥 Key Features & Highlights:
+  - **500+ Premium Icons:** A massive collection covering all major web application needs.
+  - **Zero Runtime Dependencies:** SVGs are compiled purely into CSS `data:image` encodings. No font files required.
+  - **Brand Colors:** Includes original, true-color brand logos (e.g., Google, WhatsApp, Facebook).
+  - **Advanced Variants:** Outline, Solid, Two-Tone, and Color variants with Round and Square background shapes.
+  - **Smart RTL:** Directional icons (like arrows) automatically mirror when `[dir="rtl"]` is detected.
+
+  **Installation:**
+  ```bash
+  npm install @shoaib-aftab/icons
+  ```
+  ```
+
+جب آپ یہ سب تفصیلات کاپی پیسٹ کر لیں تو نیچے موجود سبز رنگ کے **"Publish release"** بٹن پر کلک کر دیں۔ اس سے آپ کے پروجیکٹس مکمل طور پر لائیو اور پبلک پروڈکشن ورژن میں تبدیل ہو جائیں گے!
