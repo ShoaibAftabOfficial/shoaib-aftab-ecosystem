@@ -16,33 +16,48 @@
 
 ## 2. Publishing to NPM Organization (@shoaibaftabtech)
 
-یہ پیکجز آپ کی پرسنل آئی ڈی کی بجائے باقاعدہ NPM Organization (`@shoaibaftabtech`) پر پبلش ہوں گے۔ چونکہ آپ اس آرگنائزیشن کے Owner ہیں اور آپ کے پاس Read/Write ایکسیس ٹوکن موجود ہے، اس لیے پبلش کرنے سے پہلے یقینی بنائیں کہ آپ اپنے اکاؤنٹ میں لاگ ان ہیں۔
+NPM پر پبلش کرتے وقت اکثر دو بڑے مسائل (Errors) آتے ہیں جن کا حل نیچے تفصیل سے دیا گیا ہے:
 
-### لاگ ان کا طریقہ (اگر لاگ ان نہیں ہیں):
-```bash
-npm login
+### ⚠️ مسئلہ نمبر 1: `Cannot find module 'clean-css'` یا `terser` کا ایرر
+**وجہ:** یہ ایرر اس لیے آتا ہے کیونکہ فولڈر کے اندر ڈیوائیلپمنٹ ٹولز (Dependencies) ڈاؤنلوڈ نہیں ہوئے۔
+**حل:** بلڈ (`npm run build`) کمانڈ چلانے سے پہلے ہمیشہ `npm install` کی کمانڈ چلائیں۔
+
+### ⚠️ مسئلہ نمبر 2: `404 Not Found` اور Access Token سیٹ کرنے کا طریقہ
+**وجہ:** اگر آپ کا NPM ٹوکن لاگ ان صحیح طریقے سے کام نہیں کر رہا، تو آپ کو `.npmrc` فائل کے ذریعے اپنا Access Token کمپیوٹر کو بتانا ہوتا ہے۔
+**حل:** فولڈر کے اندر ایک نئی فائل بنائیں جس کا نام `.npmrc` ہو (شروع میں ڈاٹ لگانا لازمی ہے)۔ اور اس کے اندر یہ ایک لائن لکھ دیں:
+
+```text
+//registry.npmjs.org/:_authToken=آپ_کا_ٹوکن_یہاں_پیسٹ_کریں
 ```
-*(یہاں اپنا NPM یوزرنیم، پاسورڈ اور ای میل دیں)*
+*(نوٹ: "آپ_کا_ٹوکن_یہاں_پیسٹ_کریں" کو مٹا کر اپنا اصل NPM ٹوکن پیسٹ کریں جو `npm_...` سے شروع ہوتا ہے)*۔
 
-اگر آپ Access Token کے ذریعے پبلش کرنا چاہتے ہیں تو آپ اپنی `.npmrc` فائل میں ٹوکن سیٹ کر سکتے ہیں۔
+---
 
-### Shoaib Aftab CSS کے لیے:
+### پبلش کرنے کے مکمل سٹیپس (باری باری ہر فولڈر کے لیے):
+
+#### Shoaib Aftab CSS کے لیے:
 1. `cd shoaib-aftab-css`
-2. `npm run build`
-3. `npm publish --access public`
-4. `cd ..`
+2. `npm install` (یہ لازمی ہے تاکہ clean-css کا ایرر نہ آئے)
+3. اگر ضروری ہو تو یہاں اپنی `.npmrc` فائل بنائیں اور اس میں ٹوکن لکھیں۔
+4. `npm run build`
+5. `npm publish --access public`
+6. `cd ..`
 
-### Shoaib Aftab JS کے لیے:
+#### Shoaib Aftab JS کے لیے:
 1. `cd shoaib-aftab-js`
-2. `npm run build`
-3. `npm publish --access public`
-4. `cd ..`
+2. `npm install` (یہ لازمی ہے تاکہ terser کا ایرر نہ آئے)
+3. اگر ضروری ہو تو یہاں اپنی `.npmrc` فائل بنائیں اور اس میں ٹوکن لکھیں۔
+4. `npm run build`
+5. `npm publish --access public`
+6. `cd ..`
 
-### Shoaib Aftab Icons کے لیے:
+#### Shoaib Aftab Icons کے لیے:
 1. `cd shoaib-aftab-icons`
-2. `npm run build`
-3. `npm publish --access public`
-4. `cd ..`
+2. `npm install`
+3. اگر ضروری ہو تو یہاں اپنی `.npmrc` فائل بنائیں اور اس میں ٹوکن لکھیں۔
+4. `npm run build`
+5. `npm publish --access public`
+6. `cd ..`
 
 *(نوٹ: `--access public` لازمی ہے کیونکہ آپ ایک آرگنائزیشن اسکوپ `@shoaibaftabtech` کے تحت پبلش کر رہے ہیں)*
 
