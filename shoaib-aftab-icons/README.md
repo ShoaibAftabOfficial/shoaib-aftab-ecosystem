@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://shoaibaftab.com/images/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
+  <img src="https://shoaibaftab.com/images/logo.svg" alt="Shoaib Aftab Tech Logo" width="300">
   <h1>Shoaib Aftab Icon Library</h1>
   <p><strong>A massive icon library with 500+ standard and brand SVGs with zero dependencies. 100% self-contained.</strong></p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-  [![Version](https://img.shields.io/npm/v/@shoaib-aftab/icons)](https://www.npmjs.com/package/@shoaib-aftab/icons)
+  [![Version](https://img.shields.io/npm/v/@shoaibaftabtech/icons)](https://www.npmjs.com/package/@shoaibaftabtech/icons)
 </div>
 
 ---
@@ -14,6 +14,7 @@
 🤝 **Ready to Build & Grow?** Let's connect to discuss your project and strategic goals.
 
 Visit us at: [shoaibaftab.com](https://shoaibaftab.com)
+Email: [tech@shoaibaftab.com](mailto:tech@shoaibaftab.com)
 Facebook: [Shoaib Aftab Tech](https://facebook.com/ShoaibAftabTech)
 
 ---
@@ -28,22 +29,22 @@ Shoaib Aftab Icons is a comprehensive, standalone **Icon Library** featuring 500
 
 ### 1. NPM
 ```bash
-npm install @shoaib-aftab/icons
+npm install @shoaibaftabtech/icons
 ```
 
 ### 2. jsDelivr CDN (NPM)
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoaib-aftab/icons@latest/dist/sa-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoaibaftabtech/icons@latest/dist/sa-icons.min.css">
 ```
 
 ### 3. jsDelivr CDN (GitHub)
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaib-aftab-tech/shoaib-aftab-icons@main/dist/sa-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShoaibAftabTech/shoaib-aftab-icons@main/dist/sa-icons.min.css">
 ```
 
 ### 4. Unpkg CDN
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@shoaib-aftab/icons/dist/sa-icons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/@shoaibaftabtech/icons/dist/sa-icons.min.css">
 ```
 
 ## Usage

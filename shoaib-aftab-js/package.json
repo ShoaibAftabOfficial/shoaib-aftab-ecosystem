@@ -1,5 +1,5 @@
 {
-  "name": "@shoaib-aftab/js",
+  "name": "@shoaibaftabtech/js",
   "version": "1.0.0",
   "description": "Shoaib Aftab JS - A pure Vanilla JavaScript Framework with zero dependencies. 100% self-contained.",
   "main": "dist/shoaib-aftab.min.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shoaib-aftab-tech/shoaib-aftab-js.git"
+    "url": "https://github.com/ShoaibAftabTech/shoaib-aftab-js.git"
   },
   "keywords": [
     "vanilla-js",
@@ -32,13 +32,17 @@
     "sa-js",
     "zero-dependencies"
   ],
-  "author": "Shoaib Aftab Tech",
+  "author": {
+    "name": "Shoaib Aftab Tech",
+    "email": "tech@shoaibaftab.com",
+    "url": "https://shoaibaftab.com"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shoaib-aftab-tech/shoaib-aftab-js/issues"
+    "url": "https://github.com/ShoaibAftabTech/shoaib-aftab-js/issues"
   },
-  "homepage": "https://github.com/shoaib-aftab-tech/shoaib-aftab-js#readme",
+  "homepage": "https://github.com/ShoaibAftabTech/shoaib-aftab-js#readme",
   "devDependencies": {
-    "terser": "^5.46.2"
+    "terser": "^5.31.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@shoaib-aftab/css",
+  "name": "@shoaibaftabtech/css",
   "version": "1.0.0",
   "description": "Shoaib Aftab CSS - A modern, lightweight, and self-contained CSS framework with zero dependencies, built on W3C CSS Specification.",
   "main": "dist/shoaib-aftab.min.css",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shoaib-aftab-tech/shoaib-aftab-css.git"
+    "url": "https://github.com/ShoaibAftabTech/shoaib-aftab-css.git"
   },
   "keywords": [
     "css",
@@ -32,12 +32,16 @@
     "sa-css",
     "zero-dependencies"
   ],
-  "author": "Shoaib Aftab Tech",
+  "author": {
+    "name": "Shoaib Aftab Tech",
+    "email": "tech@shoaibaftab.com",
+    "url": "https://shoaibaftab.com"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shoaib-aftab-tech/shoaib-aftab-css/issues"
+    "url": "https://github.com/ShoaibAftabTech/shoaib-aftab-css/issues"
   },
-  "homepage": "https://github.com/shoaib-aftab-tech/shoaib-aftab-css#readme",
+  "homepage": "https://github.com/ShoaibAftabTech/shoaib-aftab-css#readme",
   "devDependencies": {
     "clean-css": "^5.3.3"
   }
