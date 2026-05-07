@@ -7,10 +7,10 @@
 ## 1. Committing & Pushing Code to GitHub Organization
 اپنے کمپیوٹر سے کوڈ GitHub Organization پر بھیجنے کے لیے ٹرمینل (Terminal) میں یہ کمانڈز چلائیں:
 
-1. `git status` (تبدیلیاں چیک کرنے کے لیے)
-2. `git add .` (تمام فائلوں کو شامل کرنے کے لیے)
-3. `git commit -m "feat: initial stable release of ecosystem"` (تبدیلی کا نام)
-4. `git push origin main` (GitHub پر بھیجنے کے لیے)
+1. `git status`
+2. `git add .`
+3. `git commit -m "feat: initial stable release of ecosystem"`
+4. `git push origin main`
 
 ---
 
@@ -19,17 +19,15 @@
 NPM پر پبلش کرتے وقت اکثر دو بڑے مسائل (Errors) آتے ہیں جن کا حل نیچے تفصیل سے دیا گیا ہے:
 
 ### ⚠️ مسئلہ نمبر 1: `Cannot find module 'clean-css'` یا `terser` کا ایرر
-**وجہ:** یہ ایرر اس لیے آتا ہے کیونکہ فولڈر کے اندر ڈیوائیلپمنٹ ٹولز (Dependencies) ڈاؤنلوڈ نہیں ہوئے۔
-**حل:** بلڈ (`npm run build`) کمانڈ چلانے سے پہلے ہمیشہ `npm install` کی کمانڈ چلائیں۔
+**وجہ:** یہ ایرر اس لیے آتا ہے کیونکہ فولڈر کے اندر ڈیوائیلپمنٹ ٹولز ڈاؤنلوڈ نہیں ہوئے۔
+**حل:** بلڈ کمانڈ چلانے سے پہلے ہمیشہ `npm install` کی کمانڈ چلائیں۔
 
-### ⚠️ مسئلہ نمبر 2: `404 Not Found` اور Access Token سیٹ کرنے کا طریقہ
-**وجہ:** اگر آپ کا NPM ٹوکن لاگ ان صحیح طریقے سے کام نہیں کر رہا، تو آپ کو `.npmrc` فائل کے ذریعے اپنا Access Token کمپیوٹر کو بتانا ہوتا ہے۔
-**حل:** فولڈر کے اندر ایک نئی فائل بنائیں جس کا نام `.npmrc` ہو (شروع میں ڈاٹ لگانا لازمی ہے)۔ اور اس کے اندر یہ ایک لائن لکھ دیں:
-
+### ⚠️ مسئلہ نمبر 2: `404 Not Found` کا ایرر NPM Publish پر
+**وجہ:** NPM کے نئے سیکیورٹی رولز کے مطابق اور Organization میں پبلش کرنے کے لیے، آپ کی ریپوزٹری کے `package.json` میں "publishConfig" کا ہونا اور `--access public` کا درست استعمال لازمی ہے۔
+**حل:** اگر آپ Access Token کے ذریعے پبلش کرنا چاہتے ہیں تو آپ اپنی روٹ ڈائریکٹری (جہاں آپ ٹرمینل کھولے ہوئے ہیں) میں ایک `.npmrc` فائل بنائیں اور یہ لائن لکھیں:
 ```text
 //registry.npmjs.org/:_authToken=آپ_کا_ٹوکن_یہاں_پیسٹ_کریں
 ```
-*(نوٹ: "آپ_کا_ٹوکن_یہاں_پیسٹ_کریں" کو مٹا کر اپنا اصل NPM ٹوکن پیسٹ کریں جو `npm_...` سے شروع ہوتا ہے)*۔
 
 ---
 
@@ -37,29 +35,24 @@ NPM پر پبلش کرتے وقت اکثر دو بڑے مسائل (Errors) آت�
 
 #### Shoaib Aftab CSS کے لیے:
 1. `cd shoaib-aftab-css`
-2. `npm install` (یہ لازمی ہے تاکہ clean-css کا ایرر نہ آئے)
-3. اگر ضروری ہو تو یہاں اپنی `.npmrc` فائل بنائیں اور اس میں ٹوکن لکھیں۔
-4. `npm run build`
-5. `npm publish --access public`
-6. `cd ..`
+2. `npm install`
+3. `npm run build`
+4. `npm publish --access public` (اگر پھر بھی 404 ایرر آئے تو چیک کریں کہ آپ کا اکاؤنٹ Organization "@shoaibaftabtech" میں Owner ہے اور ٹوکن درست ہے)
+5. `cd ..`
 
 #### Shoaib Aftab JS کے لیے:
 1. `cd shoaib-aftab-js`
-2. `npm install` (یہ لازمی ہے تاکہ terser کا ایرر نہ آئے)
-3. اگر ضروری ہو تو یہاں اپنی `.npmrc` فائل بنائیں اور اس میں ٹوکن لکھیں۔
-4. `npm run build`
-5. `npm publish --access public`
-6. `cd ..`
+2. `npm install`
+3. `npm run build`
+4. `npm publish --access public`
+5. `cd ..`
 
 #### Shoaib Aftab Icons کے لیے:
 1. `cd shoaib-aftab-icons`
 2. `npm install`
-3. اگر ضروری ہو تو یہاں اپنی `.npmrc` فائل بنائیں اور اس میں ٹوکن لکھیں۔
-4. `npm run build`
-5. `npm publish --access public`
-6. `cd ..`
-
-*(نوٹ: `--access public` لازمی ہے کیونکہ آپ ایک آرگنائزیشن اسکوپ `@shoaibaftabtech` کے تحت پبلش کر رہے ہیں)*
+3. `npm run build`
+4. `npm publish --access public`
+5. `cd ..`
 
 ---
 
